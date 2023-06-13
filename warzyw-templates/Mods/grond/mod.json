@@ -1,0 +1,33 @@
+{
+    "name" : "grond",
+
+    "description" : "Are you strong enough to walk the path to the other human? There's 1 path between Red and Blue and if you don't hurry, strong AI armies will get in your way. Named after a certain fight in one WoG map (Gauntlet of the Grond in Swords of Night and Day), which was probably named after Morgoth's hammer from Tolkien's Silmarillion. Size L, 2 humans, 6 AIs, Average Road, average timer and sim turns, 160%, standard trades for town and color, leaave AIs' towns as random, 1x111 res, tech res if passage to one of the AIs generates as a guarded portal on the road, you can't beat that guard without big losses and can't go around it.",
+
+    "author" : "Warzyw647",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "Warzyw#1628 on heroes-themed Discords",
+
+    "modType" : "Templates",
+	
+	"templates" : [ "grond.json" ],
+
+    "depends" : [ "warzyw-templates", "hota", "forge", "forge2k", "greenhouse-town" ],
+	
+	"version" : "1.0",
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "initial release" ]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.3.0"
+	},
+	
+    "keepDisabled" : false
+}
