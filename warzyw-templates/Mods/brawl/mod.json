@@ -14,14 +14,13 @@
     "modType" : "Templates",
 	
 	"templates" : [ "brawl.json" ],
-
-    "depends" : [ "warzyw-templates" ],
 	
 	"version" : "1.0",
  
     "changelog" :
     {
-        "1.0"   : [ "initial release" ]
+        "1.0"   : [ "initial release" ],
+        "1.01"   : [ "removed parent mod dependency" ]
     },
 
 	"compatibility" :
