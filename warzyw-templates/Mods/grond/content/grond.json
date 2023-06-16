@@ -19,7 +19,7 @@
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
 				"terrainTypes" : [ "swamp" ],
-				"allowedTowns" : ["greenhouse", "forge", "forge2k"],
+				"bannedTowns" : [ "castle", "tower", "rampart", "stronghold", "fortress", "conflux", "inferno", "dungeon" ],
 				"treasure" :
 				[
 					{
