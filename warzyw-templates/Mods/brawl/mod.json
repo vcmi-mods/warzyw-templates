@@ -20,7 +20,8 @@
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
-        "1.01"   : [ "removed parent mod dependency" ]
+        "1.01"   : [ "removed parent mod dependency" ],
+        "1.02"   : [ "doubled all treasure density", "fictive and repulsive connections added by Warmonger" ]
     },
 
 	"compatibility" :
