@@ -20,7 +20,8 @@
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
-        "1.01"   : [ "removed dependencies", "updated description with suggested mods" ]
+        "1.01"   : [ "removed dependencies", "updated description with suggested mods" ],
+        "1.02"   : [ "doubled treasure densities", "added repulsive connections to make the road between the players more straight", "'added repulsive connections to AIs to make them start on both sides of the road" ]
     },
 
 	"compatibility" :

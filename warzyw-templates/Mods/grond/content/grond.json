@@ -25,17 +25,17 @@
 					{
 						"min" : 1000,
 						"max" : 4000,
-						"density" : 10
+						"density" : 20
 					},
 					{
 						"min" : 3000,
 						"max" : 8000,
-						"density" : 8
+						"density" : 16
 					},
 					{
 						"min" : 7000,
 						"max" : 11900,
-						"density" : 5
+						"density" : 10
 					}
 				]
 			},
@@ -59,17 +59,17 @@
 					{
 						"min" : 1000,
 						"max" : 4000,
-						"density" : 10
+						"density" : 20
 					},
 					{
 						"min" : 3000,
 						"max" : 8000,
-						"density" : 8
+						"density" : 16
 					},
 					{
 						"min" : 7000,
 						"max" : 15000,
-						"density" : 6
+						"density" : 12
 					}
 				]
 			},
@@ -111,17 +111,17 @@
 					{
 						"min" : 2000,
 						"max" : 3500,
-						"density" : 5
+						"density" : 10
 					},
 					{
 						"min" : 1500,
 						"max" : 2500,
-						"density" : 8
+						"density" : 16
 					},
 					{
 						"min" : 1000,
 						"max" : 2000,
-						"density" : 10
+						"density" : 20
 					}
 				]
 			},
@@ -166,17 +166,17 @@
 					{
 						"min" : 500,
 						"max" : 2000,
-						"density" : 9
+						"density" : 18
 					},
 					{
 						"min" : 2000,
 						"max" : 5000,
-						"density" : 6
+						"density" : 12
 					},
 					{
 						"min" : 5000,
 						"max" : 8000,
-						"density" : 3
+						"density" : 6
 					}
 				]
 			},
@@ -280,17 +280,17 @@
 					{
 						"min" : 10000,
 						"max" : 15000,
-						"density" : 10
+						"density" : 20
 					},
 					{
 						"min" : 15000,
 						"max" : 20000,
-						"density" : 8
+						"density" : 16
 					},
 					{
 						"min" : 20000,
 						"max" : 30000,
-						"density" : 4
+						"density" : 8
 					}
 				],
 				"mines" :
@@ -395,17 +395,17 @@
 					{
 						"min" : 11000,
 						"max" : 15200,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 15200,
 						"max" : 18900,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 18900,
 						"max" : 25900,
-						"density" : 20
+						"density" : 40
 					}
 				]
 			},
@@ -464,17 +464,17 @@
 					{
 						"min" : 36800,
 						"max" : 47700,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 25900,
 						"max" : 36800,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 18900,
 						"max" : 25900,
-						"density" : 20
+						"density" : 40
 					}
 				]
 			},
@@ -533,17 +533,17 @@
 					{
 						"min" : 36800,
 						"max" : 47700,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 25900,
 						"max" : 36800,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 47700,
 						"max" : 59500,
-						"density" : 20
+						"density" : 40
 					}
 				]
 			},
@@ -560,17 +560,17 @@
 					{
 						"min" : 36800,
 						"max" : 47700,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 59500,
 						"max" : 100000,
-						"density" : 20
+						"density" : 40
 					},
 					{
 						"min" : 47700,
 						"max" : 59500,
-						"density" : 20
+						"density" : 40
 					}
 				]
 			}
@@ -602,7 +602,15 @@
 			{ "a" : "14", "b" : "24", "guard" : 7000 },
 			{ "a" : "15", "b" : "25", "guard" : 7000 },
 			{ "a" : "12", "b" : "26", "guard" : 9000 },
-			{ "a" : "13", "b" : "27", "guard" : 9000 }
+			{ "a" : "13", "b" : "27", "guard" : 9000 },
+			{ "a" : "2", "b" : "3", "type": "repulsive" },
+			{ "a" : "4", "b" : "5", "type": "repulsive" },
+			{ "a" : "6", "b" : "7", "type": "repulsive" },
+			{ "a" : "8", "b" : "16", "type": "repulsive" },
+			{ "a" : "9", "b" : "17", "type": "repulsive" },
+			{ "a" : "10", "b" : "14", "type": "repulsive" },
+			{ "a" : "11", "b" : "15", "type": "repulsive" },
+			{ "a" : "11", "b" : "12", "type": "repulsive" }
 		]
 	}
 }
