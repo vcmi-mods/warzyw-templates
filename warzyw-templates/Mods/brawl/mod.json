@@ -15,14 +15,15 @@
 	
 	"templates" : [ "brawl.json" ],
 	
-	"version" : "1.03",
+	"version" : "1.04",
  
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
         "1.01"   : [ "removed parent mod dependency" ],
         "1.02"   : [ "doubled all treasure density", "fictive and repulsive connections added by Warmonger" ],
-        "1.03"   : [ "made Griffin Conservatories smaller", "made Dragonfly Hives smaller", "removed Redwood Observatories", "Added Covers of Darkness" ]
+        "1.03"   : [ "made Griffin Conservatories smaller", "made Dragonfly Hives smaller", "removed Redwood Observatories", "Added Covers of Darkness" ],
+        "1.04"   : [ "bugfix griffin conservatories in submod wit hobjects crashing the game", "removed Sanctuaries unless rmg really wants them (rarity 1, same as Observatories)" ]
     },
 
 	"compatibility" :

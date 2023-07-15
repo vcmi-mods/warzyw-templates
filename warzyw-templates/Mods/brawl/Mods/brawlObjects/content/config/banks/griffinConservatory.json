@@ -68,8 +68,8 @@
 							"creatures": [ { "amount": 5, "type": "monk", "upgradeChance": 50 } ]
 						}
 					}
-				}
+				]
 			}
-		]
+		}
 	}
 }
