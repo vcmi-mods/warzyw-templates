@@ -13,13 +13,14 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.02",
+	"version" : "1.03",
  
     "changelog" :
     {
         "1.0"   : [ "initial release", "Brawl ported to vcmi", "Grond ported to vcmi"],
         "1.01"   : [ " updated Brawl and  Grond  layout", "fixed mod dependencies", "preliminary Brawl object changes", "doubled Brawl and Grond treasures to match their HotA versions"],
-        "1.02"   : [ "bugfix in Brawl object changes crashing the game", "Brawl object changes v2" ]
+        "1.02"   : [ "bugfix in Brawl object changes crashing the game", "Brawl object changes v2" ],
+        "1.03"   : [ "added a missing file in Brawl object changes" ]
     },
 
 	"compatibility" :

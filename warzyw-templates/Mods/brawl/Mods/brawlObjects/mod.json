@@ -22,12 +22,13 @@
 		"config/genericObjects/sanctuary.json"
 	],
 	
-	"version" : "1.01",
+	"version" : "1.02",
  
     "changelog" :
     {
         "1.0"   : [ "disabled Redwood Observatory", "enabled Cover of Darkness", "cons guard lowered and reward changed to Monks", "hives guarded by Lizards and give Serpent Flies" ],
-        "1.01"   : [ "fixed bug caused by wrong parentheses in griffinConservatory", "removed sanctuaries" ]
+        "1.01"   : [ "fixed bug caused by wrong parentheses in griffinConservatory", "removed sanctuaries" ],
+        "1.02"   : [ "added the file with sanctuary ban forgotten in the previous version" ]
     },
 
 	"compatibility" :
