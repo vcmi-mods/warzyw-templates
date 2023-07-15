@@ -1,0 +1,75 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"griffinConservatory" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 40
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 2, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 3, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 4, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 5, "type": "griffin", "upgradeChance": 50 }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"creatures": [ { "amount": 2, "type": "monk", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 2, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 3, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 4, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 5, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 6, "type": "griffin", "upgradeChance": 50 }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 3, "type": "monk", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 4, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 5, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 6, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 7, "type": "griffin", "upgradeChance": 50 }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"creatures": [ { "amount": 4, "type": "monk", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 4, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 5, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 6, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 7, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 8, "type": "griffin", "upgradeChance": 50 }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"creatures": [ { "amount": 5, "type": "monk", "upgradeChance": 50 } ]
+						}
+					}
+				}
+			}
+		]
+	}
+}

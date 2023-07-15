@@ -1,0 +1,13 @@
+{
+	"core:redwoodObservatory" :
+	{
+		"types":
+		{
+			"object" : {
+				"rmg" : {
+					"zoneLimit"	: 0
+				}
+			}
+		}
+	}
+}
