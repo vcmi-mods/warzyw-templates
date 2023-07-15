@@ -15,13 +15,14 @@
 	
 	"templates" : [ "brawl.json" ],
 	
-	"version" : "1.0",
+	"version" : "1.03",
  
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
         "1.01"   : [ "removed parent mod dependency" ],
-        "1.02"   : [ "doubled all treasure density", "fictive and repulsive connections added by Warmonger" ]
+        "1.02"   : [ "doubled all treasure density", "fictive and repulsive connections added by Warmonger" ],
+        "1.03"   : [ "made Griffin Conservatories smaller", "made Dragonfly Hives smaller", "removed Redwood Observatories", "Added Covers of Darkness" ]
     },
 
 	"compatibility" :
