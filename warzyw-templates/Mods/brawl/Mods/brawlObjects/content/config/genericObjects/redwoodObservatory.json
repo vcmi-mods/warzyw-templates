@@ -5,7 +5,8 @@
 		{
 			"object" : {
 				"rmg" : {
-					"zoneLimit"	: 0
+					"value"		: 750,
+					"rarity"	: 1
 				}
 			}
 		}
