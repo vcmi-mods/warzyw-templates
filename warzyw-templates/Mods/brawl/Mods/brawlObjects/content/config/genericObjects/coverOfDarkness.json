@@ -1,0 +1,15 @@
+{
+	"core:coverOfDarkness" :
+	{
+		"types":
+		{
+			"object" : {
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 750,
+					"rarity"	: 100
+				}
+			}
+		}
+	}
+}
