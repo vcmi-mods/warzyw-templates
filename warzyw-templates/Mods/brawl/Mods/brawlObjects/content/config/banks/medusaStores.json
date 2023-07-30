@@ -1,0 +1,98 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"medusaStore" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 1, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources":
+							{
+								"sulfur" : 3,
+								"gold" : 1000
+							},
+							"creatures": [ { "amount": 2, "type": "beholder", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources":
+							{
+								"sulfur" : 3,
+								"gold" : 1200
+							},
+							"creatures": [ { "amount": 3, "type": "beholder", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources":
+							{
+								"sulfur" : 4,
+								"gold" : 1400
+							},
+							"creatures": [ { "amount": 2, "type": "medusa", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 4, "type": "medusa", "upgradeChance": 50 }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources":
+							{
+								"sulfur" : 4,
+								"gold" : 1600
+							},
+							"creatures": [ { "amount": 3, "type": "medusa", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
