@@ -1,0 +1,46 @@
+{
+    "name" : "brawlHotaObjects",
+
+    "description" : "Modified HotA objects used by template Brawl, should be better suited for short games on small maps ",
+
+    "author" : "Warzyw647",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "Warzyw#1628 on heroes-themed Discords",
+
+    "modType" : "Objects",
+	
+	"objects" :
+	[
+		"config/banks/churchyard.json",
+	//	"config/banks/experimentalShop.json",
+	//	"config/banks/ivoryTower.json",
+	//	"config/banks/mansion.json",
+	//	"config/banks/pirateCavern.json",
+	//	"config/banks/redTower.json",
+	//	"config/banks/spit.json",
+	//	"config/banks/wolfRaiderPicket.json"
+	],
+	
+	"version" : "1.0",
+
+ 	"depends" : 
+	[
+		"hota.mapObjects"
+	],
+
+    "changelog" :
+    {
+        "1.0"   : [ "made most of banks smaller" ]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.3.0"
+	},
+	
+    "keepDisabled" : true
+}

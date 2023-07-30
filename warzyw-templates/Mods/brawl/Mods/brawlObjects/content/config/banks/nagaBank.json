@@ -18,7 +18,7 @@
 							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
-							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 }
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
 						],
 						"combat_value": 351,
 						"reward" : {
@@ -38,7 +38,7 @@
 							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
-							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 }
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
 						],
 						"combat_value": 702,
 						"reward" : {
@@ -58,7 +58,7 @@
 							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
-							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 }
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
 						],
 						"combat_value": 1053,
 						"reward" : {
@@ -78,7 +78,7 @@
 							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
 							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
-							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 }
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
 						],
 						"combat_value": 1404,
 						"reward" : {
