@@ -15,21 +15,14 @@
 	
 	"objects" :
 	[
-		"config/banks/churchyard.json",
-	//	"config/banks/experimentalShop.json",
-	//	"config/banks/ivoryTower.json",
-	//	"config/banks/mansion.json",
-	//	"config/banks/pirateCavern.json",
-	//	"config/banks/redTower.json",
-	//	"config/banks/spit.json",
-	//	"config/banks/wolfRaiderPicket.json"
+		"config/banks/churchyard.json"
 	],
 	
 	"version" : "1.0",
 
  	"depends" : 
 	[
-		"hota.mapObjects"
+		"hota.mapobjects"
 	],
 
     "changelog" :
