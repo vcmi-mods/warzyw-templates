@@ -6,8 +6,9 @@
 			"dragonFlyHive" : {
 				"resetDuration" : 4,
 				"rmg" : {
+					"zoneLimit"	: 2,
 					"value"		: 1000,
-					"rarity"	: 40
+					"rarity"	: 100
 				},
 				"levels": [
 					{

@@ -13,14 +13,15 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.03",
+	"version" : "1.04",
  
     "changelog" :
     {
         "1.0"   : [ "initial release", "Brawl ported to vcmi", "Grond ported to vcmi"],
         "1.01"   : [ " updated Brawl and  Grond  layout", "fixed mod dependencies", "preliminary Brawl object changes", "doubled Brawl and Grond treasures to match their HotA versions"],
         "1.02"   : [ "bugfix in Brawl object changes crashing the game", "Brawl object changes v2" ],
-        "1.03"   : [ "added a missing file in Brawl object changes" ]
+        "1.03"   : [ "added a missing file in Brawl object changes" ],
+        "1.04"   : [ "changed more banks in Brawl objects", "banned external taverns and stables on Brawl", "improved object bans on Brawl", "increased Brawl max size to m to allow 48x48 maps", "limited each bank on Brawl to 2 per zone but reverted densities to 100 from 40" ]
     },
 
 	"compatibility" :

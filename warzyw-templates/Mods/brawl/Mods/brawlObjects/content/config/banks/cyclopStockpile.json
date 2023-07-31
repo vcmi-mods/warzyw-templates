@@ -1,0 +1,118 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"cyclopsStockpile" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 3, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 3, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 3, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cyclop", "upgradeChance": 50 }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+								"wood" : 1,
+								"mercury" : 1,
+								"ore" : 1,
+								"sulfur" : 1,
+								"crystal" : 1,
+								"gems" : 1,
+								"gold" : 1
+							},
+							"creatures": [ { "amount": 1, "type": "ogre", "upgradeChance": 30 }, { "amount": 1, "type": "ogre", "upgradeChance": 30 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 4, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 4, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 4, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 4, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cyclop", "upgradeChance": 50 }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources": 
+							{
+								"wood" : 2,
+								"mercury" : 2,
+								"ore" : 2,
+								"sulfur" : 2,
+								"crystal" : 2,
+								"gems" : 2,
+								"gold" : 2
+							},
+							"creatures": [ { "amount": 1, "type": "ogre", "upgradeChance": 30 }, { "amount": 1, "type": "ogre", "upgradeChance": 30 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 5, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 5, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 5, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cyclop", "upgradeChance": 50 }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources": 
+							{
+								"wood" : 3,
+								"mercury" : 3,
+								"ore" : 3,
+								"sulfur" : 3,
+								"crystal" : 3,
+								"gems" : 3,
+								"gold" : 3
+							},
+							"creatures": [ { "amount": 1, "type": "ogre", "upgradeChance": 30 }, { "amount": 1, "type": "ogre", "upgradeChance": 30 }, { "amount": 1, "type": "ogre", "upgradeChance": 30 } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 6, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 6, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 6, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 6, "type": "orc", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cyclop", "upgradeChance": 50 }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources": 
+							{
+								"wood" : 4,
+								"mercury" : 4,
+								"ore" : 4,
+								"sulfur" : 4,
+								"crystal" : 4,
+								"gems" : 4,
+								"gold" : 4
+							},
+							"creatures": [ { "amount": 1, "type": "ogre", "upgradeChance": 30 }, { "amount": 1, "type": "ogre", "upgradeChance": 30 }, { "amount": 1, "type": "ogre", "upgradeChance": 30 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,9 +1,9 @@
 {
-	"core:redwoodObservatory" :
+	"core:stables" :
 	{
 		"types":
 		{
-			"object" : {
+			"stables" : {
 				"rmg" : {
 					"value"		: 99999,
 					"rarity"	: 1

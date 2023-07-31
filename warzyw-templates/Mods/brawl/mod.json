@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json" ],
 	
-	"version" : "1.05",
+	"version" : "1.06",
  
     "changelog" :
     {
@@ -24,7 +24,8 @@
         "1.02"   : [ "doubled all treasure density", "fictive and repulsive connections added by Warmonger" ],
         "1.03"   : [ "made Griffin Conservatories smaller", "made Dragonfly Hives smaller", "removed Redwood Observatories", "Added Covers of Darkness" ],
         "1.04"   : [ "bugfix griffin conservatories in submod wit hobjects crashing the game", "removed Sanctuaries unless rmg really wants them (rarity 1, same as Observatories)" ],
-        "1.05"   : [ "added the missing file with sanctuary ban in submod brawlObjects" ]
+        "1.05"   : [ "added the missing file with sanctuary ban in submod brawlObjects" ],
+        "1.06"   : [ "banned Tavern and Stables in submod brawlObjects", "increased max size to m to allow size 48x48", "improved object bans in submod brawlObjects", "decreased the sizes of the other SoD banks in brawlObjects", "limited each bank to 2 per zone but reverted densities to 100 from 40" ]
     },
 
 	"compatibility" :

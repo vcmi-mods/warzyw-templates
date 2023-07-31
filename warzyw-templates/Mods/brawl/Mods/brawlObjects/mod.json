@@ -1,7 +1,7 @@
 {
     "name" : "brawlObjects",
 
-    "description" : "Modified objects used by template Brawl, should be better suited for short games on small maps: disabled Sanctuaries and Redwood Observatories, enabled Covers of Darkness in their place, Cons have guards from 1-5 to 4-8 griffins, rewards 2-5 Monks, each stack can be upgraded, revisitable after 4 days, Hives have guards from 1-5 to 4-8 Lizardmen, reward 4-7 Serpent Flies, also revisitable  after 4 days and also each stack can be upgraded",
+    "description" : "Modified objects used by template Brawl, should be better suited for short games on small maps: disabled Sanctuaries, external  Taverns and Stables, disabled Redwood Observatories, enabled Covers of Darkness in their place, Cons have guards from 1-5 to 4-8 griffins, rewards 2-5 Monks, each stack can be upgraded, revisitable after 4 days, Hives have guards from 1-5 to 4-8 Lizardmen, reward 4-7 Serpent Flies, also revisitable  after 4 days and also each stack can be upgraded, also decreased the sizes and rewards of other banks and made them revisitable after 4 days: Cyclop Stockpile: 4x 3-6 Orcs and 1 Cyclop, reward: 1-4 all resources and 2-3 Ogres, Dwarven Treasury: 4x 3-9 dwarfs, 1-2 Pegasi, reward: 1000-2500 Gold, 2-5 Crystals, 1-2 Pegasi or 1 Dendroid/Gold Golem/Diamod Golem, Imp Cache: 5x 10-20 Imps, reward: 2-4 Mercury, 500-1000 Gold, 4 Gogs/3 Hell Hounds/2 Demons/1 Pit Fiend, Medusa Stores: 9-14 Medusas total in 5 stacks, reward: 3-4 Sulfur, 1000-1600 Gold, 2-3 Evil Eyes or Medusas, Naga Bank: 4x 3-6 Gargoyles and 1 Naga, reward: 2-4 Gems, 600-1200 Gold, 5 Dwarfs/5 Gargoyles/2 Medusas/1 Naga, Crypt: 3x8/2x10/10/10 Skeletons, 2x5/2x5/5/5 Walking Deads, 0/0/3/3 Wights, 0/0/1/2 Vampires, rewards: Treasure class Artifact, 799-999 Gold, 0-2 Wights. All creatures in each bank that have upgrades, both guards and rewards have a chance of being upgraded.",
 
     "author" : "Warzyw647",
 
@@ -17,18 +17,27 @@
 	[
 		"config/banks/dragonFlyHive.json",
 		"config/banks/griffinConservatory.json",
+		"config/banks/cyclopStockpile.json",
+		"config/banks/dwarvenTreasury.json",
+		"config/banks/impCache.json",
+		"config/banks/medusaStores.json",
+		"config/banks/nagaBank.json",
+		"config/banks/crypt.json",
 		"config/genericObjects/coverOfDarkness.json",
 		"config/genericObjects/redwoodObservatory.json",
-		"config/genericObjects/sanctuary.json"
+		"config/genericObjects/sanctuary.json",
+		"config/genericObjects/tavern.json",
+		"config/genericObjects/stables.json"
 	],
 	
-	"version" : "1.02",
+	"version" : "1.03",
  
     "changelog" :
     {
         "1.0"   : [ "disabled Redwood Observatory", "enabled Cover of Darkness", "cons guard lowered and reward changed to Monks", "hives guarded by Lizards and give Serpent Flies" ],
         "1.01"   : [ "fixed bug caused by wrong parentheses in griffinConservatory", "removed sanctuaries" ],
-        "1.02"   : [ "added the file with sanctuary ban forgotten in the previous version" ]
+        "1.02"   : [ "added the file with sanctuary ban forgotten in the previous version" ],
+        "1.03"   : [ "decreased the sizes of other banks", "removed external taverns and stables", "improved existing bans", "limited each bank to 2 per zone but reverted densities to 100 from 40" ]
     },
 
 	"compatibility" :

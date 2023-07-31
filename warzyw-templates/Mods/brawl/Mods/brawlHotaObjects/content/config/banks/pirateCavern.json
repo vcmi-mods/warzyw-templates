@@ -1,0 +1,90 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"pirateCavern" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 2, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 2, "type": "pirate", "upgradeChance": 50 }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources":
+							{
+								"gold" : 3
+							},
+							"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50} ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources":
+							{
+								"gold" : 4
+							},
+							"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources":
+							{
+								"gold" : 5
+							},
+							"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50} , { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50 }]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 4, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 4, "type": "pirate", "upgradeChance": 50 }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources":
+							{
+								"gold" : 6
+							},
+							"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50},  { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50}  ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

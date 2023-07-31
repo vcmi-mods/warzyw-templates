@@ -1,0 +1,98 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"inpCache" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 2000,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 10, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 10, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 10, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 10, "type": "imp", "upgradeChance": 50 }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources":
+							{
+								"mercury" : 2,
+								"gold" : 500
+							},
+							"creatures": [ { "amount": 4, "type": "gog", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 13, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 13, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 13, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 13, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 13, "type": "imp", "upgradeChance": 50 }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources":
+							{
+								"mercury" : 3,
+								"gold" : 650
+							},
+							"creatures": [ { "amount": 3, "type": "hellHound", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 16, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 16, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 16, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 16, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 16, "type": "imp", "upgradeChance": 50 }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources":
+							{
+								"mercury" : 3,
+								"gold" : 800
+							},
+							"creatures": [ { "amount": 2, "type": "demon", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 20, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 20, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 20, "type": "imp", "upgradeChance": 50 },
+							{ "amount": 20, "type": "imp", "upgradeChance": 50 }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources":
+							{
+								"mercury" : 4,
+								"gold" : 1000
+							},
+							"creatures": [ { "amount": 1, "type": "pitFiend", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
