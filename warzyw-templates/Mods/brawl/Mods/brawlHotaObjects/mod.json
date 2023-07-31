@@ -1,7 +1,7 @@
 {
     "name" : "brawlHotaObjects",
 
-    "description" : "Modified HotA objects used by template Brawl, should be better suited for short games on small maps ",
+    "description" : "Modified HotA objects used by template Brawl, should be better suited for short games on small maps. Churchyard: defended by 3x 8-15 Halflings and 3x 80-150 Peasants, reward: 800-1500 gold, minor artifact, 4-8 walking deads/zombies, Mansion: 5-8 Vampire Lords, reward: minor art, 2-3 resources, 1200-1800 gold, Red Tower: 5x 2-5 water elementals, reward 3-6 air elementals, Experimental Workshop: 5x 2 Stone-Gold Golems, reward: 3 Golems, Wolf Rider Picket: 4x 6-12 Goblins and 6-12 Wolf Riders, reward: 2-3 Wood and Ore and 3-6 Orcs,Pirate Cavern: 2x 2-4 Pirates, 2x 2-3 Corsairs, reward: 3-6 Stormbirds, 3-6 Gold, Ivory Tower: 2x 12-20 Gremlins, 3x 3-6 Gargoyles, reward: 3-6 Gargoyles and 1 Mage, Spit: 2x 2-3 Basilisks, 2x 1 Gorgon, reward: 1000-2000 Gold, 1 Basilisk, 1 Basilisk or Gorgon. All creatures that have upgrades, both guards and rewards have a chance of being upgraded. All banks recharge after 4 full days pass. They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
 
     "author" : "Warzyw647",
 
@@ -29,7 +29,9 @@
 
  	"depends" : 
 	[
-		"hota.mapobjects"
+		"hota.mapobjects",
+		"hota.neutralcreatures",
+		"hota.cove"
 	],
 
     "changelog" :

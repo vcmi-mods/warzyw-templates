@@ -18,7 +18,7 @@
 							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 },
-							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 }
+							{ "amount": 1, "type": "pegasus", "upgradeChance": 50 }
 						],
 						"combat_value": 351,
 						"reward" : {
@@ -38,7 +38,7 @@
 							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 },
-							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 }
+							{ "amount": 1, "type": "pegasus", "upgradeChance": 50 }
 						],
 						"combat_value": 702,
 						"reward" : {
@@ -58,7 +58,7 @@
 							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 },
-							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 }
+							{ "amount": 2, "type": "pegasus", "upgradeChance": 50 }
 						],
 						"combat_value": 1053,
 						"reward" : {
@@ -78,11 +78,16 @@
 							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
-							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 }
+							{ "amount": 2, "type": "pegasus", "upgradeChance": 50 }
 						],
 						"combat_value": 1404,
 						"reward" : {
 							"value": 12000,
+							"resources": 
+							{
+								"crystal" : 5,
+								"gold" : 2500
+							},
 							"creatures": [ { "amount": 1, "type": "goldGolem" } ]
 						}
 					},
@@ -93,11 +98,16 @@
 							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
 							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
-							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 }
+							{ "amount": 2, "type": "pegasus", "upgradeChance": 50 }
 						],
 						"combat_value": 1404,
 						"reward" : {
 							"value": 12000,
+							"resources": 
+							{
+								"crystal" : 5,
+								"gold" : 2500
+							},
 							"creatures": [ { "amount": 1, "type": "diamondGolem" } ]
 						}
 					}
