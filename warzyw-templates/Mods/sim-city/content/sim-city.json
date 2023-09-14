@@ -193,14 +193,18 @@
 			{ "a" : "8", "b" : "9", "guard" : 100000, "road" : "false" },
 			{ "a" : "1", "b" : "9", "guard" : 100000, "road" : "false" },
 			{ "a" : "9", "b" : "2", "guard" : 100000, "road" : "false" },
-			{ "a" : "2", "b" : "4", "type": "repulsive" },
-			{ "a" : "3", "b" : "5", "type": "repulsive" },
-			{ "a" : "4", "b" : "6", "type": "repulsive" },
-			{ "a" : "5", "b" : "7", "type": "repulsive" },
-			{ "a" : "6", "b" : "8", "type": "repulsive" },
-			{ "a" : "7", "b" : "9", "type": "repulsive" },
-			{ "a" : "8", "b" : "2", "type": "repulsive" },
-			{ "a" : "9", "b" : "3", "type": "repulsive" }
+			{ "a" : "2", "b" : "4", "type": "fictive" },
+			{ "a" : "3", "b" : "5", "type": "fictive" },
+			{ "a" : "4", "b" : "6", "type": "fictive" },
+			{ "a" : "5", "b" : "7", "type": "fictive" },
+			{ "a" : "6", "b" : "8", "type": "fictive" },
+			{ "a" : "7", "b" : "9", "type": "fictive" },
+			{ "a" : "8", "b" : "2", "type": "fictive" },
+			{ "a" : "9", "b" : "3", "type": "fictive" },
+			{ "a" : "2", "b" : "6", "type": "repulsive" },
+			{ "a" : "3", "b" : "7", "type": "repulsive" },
+			{ "a" : "4", "b" : "8", "type": "repulsive" },
+			{ "a" : "5", "b" : "9", "type": "repulsive" }
 		]
 	}
 }
