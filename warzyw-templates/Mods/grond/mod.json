@@ -15,18 +15,20 @@
 	
 	"templates" : [ "grond.json" ],
 	
-	"version" : "1.02",
+	"version" : "1.03",
  
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
         "1.01"   : [ "removed dependencies", "updated description with suggested mods" ],
-        "1.02"   : [ "doubled treasure densities", "added repulsive connections to make the road between the players more straight", "'added repulsive connections to AIs to make them start on both sides of the road" ]
+        "1.02"   : [ "doubled treasure densities", "added repulsive connections to make the road between the players more straight", "'added repulsive connections to AIs to make them start on both sides of the road" ],
+        "1.03"   : [ "limit max version from 1.3 branch to 1.3.x" ]
     },
 
 	"compatibility" :
 	{
-		"min" : "1.3.0"
+		"min" : "1.3.0",
+		"max" : "1.3.9"
 	},
 	
     "keepDisabled" : false
