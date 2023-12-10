@@ -3,7 +3,7 @@
 	{
 		"types":
 		{
-			"object" : {
+			"redwoodObservatory" : {
 				"rmg" : {
 					"value"		: 99999,
 					"rarity"	: 1

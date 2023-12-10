@@ -4,7 +4,6 @@
 		"minSize" : "s",
 		"maxSize" : "m",
 		"players" : "2",
-		"cpu" : "0",
 		"allowedWaterContent" : ["none"],
 		"zones" :
 		{

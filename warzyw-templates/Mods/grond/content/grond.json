@@ -3,8 +3,8 @@
 	{
 		"minSize" : "l",
 		"maxSize" : "l",
-		"players" : "2",
-		"cpu" : "6",
+		"players" : "8",
+		"humans" : "1-2",
 		"allowedWaterContent" : ["none"],
 		"zones" :
 		{
