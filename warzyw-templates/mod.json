@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.08",
+	"version" : "1.09",
  
     "changelog" :
     {
@@ -25,7 +25,8 @@
         "1.05"   : [ "added template Sim City" ],
         "1.06"   : [ "limited version for in branch 1.3 to vcmi 1.3.x and added branch 1.4 for vcmi versions 1.4+" ],
         "1.07"   : [ "added human player limit instead of ai player limit for compatibility with 1.4", "added linebreaks in mod description" ],
-        "1.08"   : [ "removed roads from Brawl" ]
+        "1.08"   : [ "removed roads from Brawl" ],
+        "1.09"   : [ "Added template Brawl FFA to submod Brawl, a version of Brawl for 4 players" ]
     },
 
 	"compatibility" :
