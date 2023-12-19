@@ -1,7 +1,7 @@
 {
     "name" : "brawl",
 
-    "description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween,<br>2 players,<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.",
+    "description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl,<br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.",
 
     "author" : "Warzyw647",
 
@@ -13,9 +13,9 @@
 
     "modType" : "Templates",
 	
-	"templates" : [ "brawl.json" ],
+	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.09",
+	"version" : "1.10",
  
     "changelog" :
     {
@@ -28,7 +28,8 @@
         "1.06"   : [ "banned Tavern and Stables in submod brawlObjects", "increased max size to m to allow size 48x48", "improved object bans in submod brawlObjects", "decreased the sizes of the other SoD banks in brawlObjects", "limited each bank to 2 per zone but reverted densities to 100 from 40" ],
         "1.07"   : [ "limited version for in branch 1.3 to vcmi 1.3.x and added branch 1.4 for vcmi versions 1.4+" ],
         "1.08"   : [ "added human player limit instead of ai player limit for compatibility with 1.4", "added linebreaks in mod description" ],
-        "1.09"   : [ "removed roads from connections, because nobody was using them and in the map editor there's no road choice yet when generating a random map", "That means if you allow slow roads, then there will be slow roads from each town to the mines in the same zone. Otherwise, there will be no roads." ]
+        "1.09"   : [ "removed roads from connections, because nobody was using them and in the map editor there's no road choice yet when generating a random map", "That means if you allow slow roads, then there will be slow roads from each town to the mines in the same zone. Otherwise, there will be no roads." ],
+        "1.10"   : [ "Added template Brawl FFA, a version of Brawl for 4 players" ]
     },
 
 	"compatibility" :
