@@ -1,7 +1,7 @@
 {
     "name" : "warzyw-templates",
 
-    "description" : "A batch of highly alternative random map templates.<br>With time more templates will be converted to VCMI.",
+    "description" : "A batch of highly alternative random map templates.<br>With time more templates will be converted to VCMI.<br>Also includes an Arena map",
 
     "author" : "Warzyw647",
 
@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.10",
+	"version" : "1.11",
  
     "changelog" :
     {
@@ -27,7 +27,8 @@
         "1.07"   : [ "added human player limit instead of ai player limit for compatibility with 1.4", "added linebreaks in mod description" ],
         "1.08"   : [ "removed roads from Brawl" ],
         "1.09"   : [ "Added template Brawl FFA to submod Brawl, a version of Brawl for 4 players" ],
-        "1.10"   : [ "updated contact info" ]
+        "1.10"   : [ "updated contact info" ],
+        "1.11"   : [ "added submod with map Nowa Arena" ]
     },
 
 	"compatibility" :
