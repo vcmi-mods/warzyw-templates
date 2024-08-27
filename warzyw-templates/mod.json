@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.11",
+	"version" : "1.12",
  
     "changelog" :
     {
@@ -28,12 +28,13 @@
         "1.08"   : [ "removed roads from Brawl" ],
         "1.09"   : [ "Added template Brawl FFA to submod Brawl, a version of Brawl for 4 players" ],
         "1.10"   : [ "updated contact info" ],
-        "1.11"   : [ "added submod with map Nowa Arena" ]
+        "1.11"   : [ "added submod with map Nowa Arena" ],
+        "1.12"   : [ "added submod with Abyss Town creature banks to Brawl and enabled water" ]
     },
 
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.5.6"
 	},
 	
     "keepDisabled" : false
