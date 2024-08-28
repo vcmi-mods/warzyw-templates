@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.12",
+	"version" : "1.13",
  
     "changelog" :
     {
@@ -31,7 +31,8 @@
         "1.09"   : [ "removed roads from connections, because nobody was using them and in the map editor there's no road choice yet when generating a random map", "That means if you allow slow roads, then there will be slow roads from each town to the mines in the same zone. Otherwise, there will be no roads." ],
         "1.10"   : [ "Added template Brawl FFA, a version of Brawl for 4 players" ],
         "1.11"   : [ "updated contact info" ],
-        "1.12"   : [ "added smaller versions of the Abyss Town creature banks", "enabled Water" ]
+        "1.12"   : [ "added smaller versions of the Abyss Town creature banks", "enabled Water" ],
+        "1.13"   : [ "added smaller version of Antagarich Burning's Grand Conflux" ]
     },
 
 	"compatibility" :

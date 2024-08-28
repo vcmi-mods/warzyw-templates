@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.12",
+	"version" : "1.13",
  
     "changelog" :
     {
@@ -29,7 +29,8 @@
         "1.09"   : [ "Added template Brawl FFA to submod Brawl, a version of Brawl for 4 players" ],
         "1.10"   : [ "updated contact info" ],
         "1.11"   : [ "added submod with map Nowa Arena" ],
-        "1.12"   : [ "added submod with Abyss Town creature banks to Brawl and enabled water" ]
+        "1.12"   : [ "added submod with Abyss Town creature banks to Brawl and enabled water" ],
+        "1.13"   : [ "added submod with Antagarich Burning creature banks to Brawl" ]
     },
 
 	"compatibility" :
