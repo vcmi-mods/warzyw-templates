@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.11",
+	"version" : "1.12",
  
     "changelog" :
     {
@@ -30,12 +30,13 @@
         "1.08"   : [ "added human player limit instead of ai player limit for compatibility with 1.4", "added linebreaks in mod description" ],
         "1.09"   : [ "removed roads from connections, because nobody was using them and in the map editor there's no road choice yet when generating a random map", "That means if you allow slow roads, then there will be slow roads from each town to the mines in the same zone. Otherwise, there will be no roads." ],
         "1.10"   : [ "Added template Brawl FFA, a version of Brawl for 4 players" ],
-        "1.11"   : [ "updated contact info" ]
+        "1.11"   : [ "updated contact info" ],
+        "1.12"   : [ "added smaller versions of the Abyss Town creature banks", "enabled Water" ]
     },
 
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.5.6"
 	},
 	
     "keepDisabled" : false

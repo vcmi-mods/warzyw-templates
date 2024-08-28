@@ -4,7 +4,7 @@
 		"minSize" : "s+u",
 		"maxSize" : "m+u",
 		"players" : "4",
-		"allowedWaterContent" : ["none"],
+		"allowedWaterContent" : ["none", "normal", "islands"],
 		"zones" :
 		{
 			"1" : // Red 1

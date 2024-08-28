@@ -1,0 +1,94 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			" WaterTemple" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1000,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 2, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssSeahorse", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 2,
+								"gems" : 2,
+								"gold" : 700
+							},
+							"creatures": [ { "amount": 5, "type": "tbirdbloody", "upgradeChance": 50 }, { "amount": 4, "type": "abyssSandCrab", "upgradeChance": 50 } ]
+						} // Ornias upgrade and 2nd/3rd upgrades have 10% chance of lightning bolt which does an extra 1 damage per creature
+					}, // upgraded Auralias' Lightning does 10 damage regardless of the number of creatures with 20% chance, damage seems not set so that default is used
+					{ // do they really need those low chances? perhaps those abilities would've been ok with 100% chance, tell that to the author on github in his mod's issues
+						"chance": 30, // also, immune water has no text
+						"guards": [ // btw, wog commanders I think were using golem style resistance, not dwarf style
+							{ "amount": 2, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssHyppocamph", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 2,
+								"gems" : 2,
+								"gold" : 900
+							},
+							"creatures": [ { "amount": 3, "type": "abyssSandCrab", "upgradeChance": 50 }, { "amount": 2, "type": "abyssHyppocamph", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "abyssHyppocamph", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 3,
+								"gems" : 3,
+								"gold" : 1100
+							},
+							"creatures": [ { "amount": 2, "type": "goldenHyppocamph", "upgradeChance": 50 }, { "amount": 1, "type": "abyssDeepwaterJellyfish", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 },
+							{ "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 3,
+								"gems" : 3,
+								"gold" : 1300
+							},
+							"creatures": [ { "amount": 1, "type": "abyssDeepwaterJellyfish", "upgradeChance": 50 }, { "amount": 1, "type": "abyssGiantOctopus", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

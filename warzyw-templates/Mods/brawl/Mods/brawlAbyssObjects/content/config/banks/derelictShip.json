@@ -1,0 +1,115 @@
+{
+	"core:derelictShip" :
+	{
+		"types" :
+		{
+			"derelictShip" :
+			{
+				"resetDuration" : 4,
+				"levels":
+				[
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 3, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssDeepwaterJellyfish", "upgradeChance": 50 },
+							{ "amount": 3, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssDeepwaterJellyfish", "upgradeChance": 50 },
+							{ "amount": 3, "type": "darkOne", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1200
+							},
+							"artifacts": [ { "class" : "TREASURE" } ],
+							"spells" : [ { "level" : 1 }, { "level" : 1 } ]
+						}
+					},
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 3, "type": "deepOne", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssDeepwaterJellyfish", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssDeepwaterJellyfish", "upgradeChance": 50 },
+							{ "amount": 3, "type": "deepOne", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1400
+							},
+							"artifacts": [ { "class" : "TREASURE" } ],
+							"spells" : [ { "level" : 1 }, { "level" : 2 } ]
+						}
+					},
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssAbyssalJellyfish", "upgradeChance": 50 },
+							{ "amount": 3, "type": "deepOne", "upgradeChance": 50 },
+							{ "amount": 2, "type": "abyssAbyssalJellyfish", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1600
+							},
+							"artifacts": [ { "class" : "TREASURE" } ],
+							"spells" : [ { "level" : 2 }, { "level" : 2 } ]
+						}
+					},
+					{
+						"chance": 15,
+						"guards":
+						[
+							{ "amount": 5, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "iceElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "iceElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "abyssHyppocamph", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1800
+							},
+							"artifacts": [ { "class" : "MINOR" } ],
+							"spells" : [ { "level" : 2 }, { "level" : 3 } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 6, "type": "goldenHyppocamph", "upgradeChance": 50 },
+							{ "amount": 5, "type": "iceElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssGiantOctopus", "upgradeChance": 50 },
+							{ "amount": 5, "type": "iceElemental", "upgradeChance": 50 },
+							{ "amount": 6, "type": "goldenHyppocamph", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 2000
+							},
+							"artifacts": [ { "class" : "MINOR" } ],
+							"spells" : [ { "level" : 3 }, { "level" : 3 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

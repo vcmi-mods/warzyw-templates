@@ -1,0 +1,124 @@
+{
+	"core:shipwreck" :
+	{
+		"types" :
+		{
+			"shipwreck" : {
+				"resetDuration" : 4,
+				"levels":
+				[
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 6, "type": "tbirdvulgaris", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 5, "type": "tbirdvulgaris", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 6, "type": "tbirdvulgaris", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 5, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 6, "type": "tbirdvulgaris", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssAbyssalCrab", "upgradeChance": 50 },
+							{ "amount": 5, "type": "tbirdelectric", "upgradeChance": 50 },
+							{ "amount": 5, "type": "abyssSandCrab", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1000
+							},
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 6, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 7, "type": "tbirdelectric", "upgradeChance": 50 },
+							{ "amount": 3, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 7, "type": "tbirdelectric", "upgradeChance": 50 },
+							{ "amount": 6, "type": "abyssAbyssalCrab", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1200
+							},
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 6, "type": "abyssAbyssalCrab", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 6, "type": "abyssAbyssalCrab", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1500
+							},
+							"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1500
+							},
+							"creatures": [ { "amount": 3, "type": "deepOne", "upgradeChance": 50 } ] // in case they get another upgrade at some point in the Abyss Town mod or in any other mod
+						}
+					},
+					{
+						"chance": 5,
+						"guards":
+						[
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "deepOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1500
+							},
+							"creatures": [ { "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 } ] // the original Water Temple bank suggests that they may get an upgrade at some point
+						}
+					}
+				]
+			}
+		}
+	}
+}
