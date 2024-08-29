@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.13",
+	"version" : "1.14",
  
     "changelog" :
     {
@@ -30,7 +30,8 @@
         "1.10"   : [ "updated contact info" ],
         "1.11"   : [ "added submod with map Nowa Arena" ],
         "1.12"   : [ "added submod with Abyss Town creature banks to Brawl and enabled water" ],
-        "1.13"   : [ "added submod with Antagarich Burning creature banks to Brawl" ]
+        "1.13"   : [ "added submod with Antagarich Burning creature banks to Brawl" ],
+        "1.14"   : [ "added submod with Cetatea Town creature banks to Brawl" ]
     },
 
 	"compatibility" :
