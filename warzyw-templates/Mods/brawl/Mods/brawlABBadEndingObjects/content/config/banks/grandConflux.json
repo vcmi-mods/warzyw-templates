@@ -1,0 +1,113 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"grandConflux" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 3000,
+					"rarity"	: 40
+				},
+				"levels": [
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 1, "type" : "abbe_fulmination", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_pollution", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_conflagration", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_glaciation", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 3,
+								"sulfur" : 3,
+								"crystal" : 3,
+								"gems" : 3
+							},
+							"artifacts": [ { "class" : "MAJOR" } ],
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 2, "type" : "abbe_fulmination", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_pollution", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_conflagration", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_glaciation", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 3,
+								"sulfur" : 3,
+								"crystal" : 3,
+								"gems" : 5
+							},
+							"artifacts": [ { "class" : "MAJOR" }, { "class" : "TREASURE" } ],
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 1, "type" : "abbe_fulmination", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "abbe_pollution", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_conflagration", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_glaciation", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 3,
+								"sulfur" : 3,
+								"crystal" : 5,
+								"gems" : 3
+							},
+							"artifacts": [ { "class" : "MAJOR" }, { "class" : "TREASURE" } ],
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 1, "type" : "abbe_fulmination", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_pollution", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "abbe_conflagration", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_glaciation", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 3,
+								"sulfur" : 5,
+								"crystal" : 3,
+								"gems" : 3
+							},
+							"artifacts": [ { "class" : "MAJOR" }, { "class" : "TREASURE" } ],
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 1, "type" : "abbe_fulmination", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_pollution", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "abbe_conflagration", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "abbe_glaciation", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 5,
+								"sulfur" : 3,
+								"crystal" : 3,
+								"gems" : 3
+							},
+							"artifacts": [ { "class" : "MAJOR" }, { "class" : "TREASURE" } ],
+						}
+					}
+				]
+			}
+		}
+	}
+}
