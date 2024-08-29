@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.13",
+	"version" : "1.14",
  
     "changelog" :
     {
@@ -32,7 +32,8 @@
         "1.10"   : [ "Added template Brawl FFA, a version of Brawl for 4 players" ],
         "1.11"   : [ "updated contact info" ],
         "1.12"   : [ "added smaller versions of the Abyss Town creature banks", "enabled Water" ],
-        "1.13"   : [ "added smaller version of Antagarich Burning's Grand Conflux" ]
+        "1.13"   : [ "added smaller version of Antagarich Burning's Grand Conflux" ],
+        "1.14"   : [ "added smaller versions of the Cetatea Town's Ancient Citadel" ]
     },
 
 	"compatibility" :

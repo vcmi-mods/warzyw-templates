@@ -1,0 +1,211 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ancientCitadel" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit"	: 3,
+					"value"		: 800,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 75 }, // In case the Cetatea Town author decides to give them an upgrade
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 2,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 2,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 2,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 2,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 2,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 2,
+								"gems" : 4,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 2,
+								"gems" : 4,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 2,
+								"gems" : 4,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 2,
+								"gems" : 4,
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 75 },
+							{ "amount": 2, "type": "cVampirelord", "upgradeChance": 50 },
+							{ "amount": 1, "type": "cVampirelord", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 2,
+								"gems" : 4,
+								"gold" : 1500
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
