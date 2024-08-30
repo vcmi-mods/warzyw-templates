@@ -1,0 +1,97 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ftFairiesBank" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit"	: 3,
+					"value"		: 800,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 10, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "ftFairy1", "upgradeChance": 75 },
+							{ "amount": 10, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "ftFairy1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 5,
+								"gems" : 5,
+								"gold" : -2500
+							}
+						}
+					},
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 15, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 15, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 15, "type": "ftFairy1", "upgradeChance": 75 },
+							{ "amount": 15, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 15, "type": "ftFairy1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 7,
+								"gems" : 7,
+								"gold" : -2500
+							}
+						}
+					},
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 20, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "ftFairy1", "upgradeChance": 75 },
+							{ "amount": 20, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "ftFairy1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 10,
+								"gems" : 10,
+								"gold" : -2500
+							}
+						}
+					},
+					{
+						"chance": 25,
+						"guards":
+						[
+							{ "amount": 25, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 25, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 25, "type": "ftFairy1", "upgradeChance": 75 },
+							{ "amount": 25, "type": "ftFairy1", "upgradeChance": 50 },
+							{ "amount": 25, "type": "ftFairy1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"crystal" : 12,
+								"gems" : 12,
+								"gold" : -2500
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
