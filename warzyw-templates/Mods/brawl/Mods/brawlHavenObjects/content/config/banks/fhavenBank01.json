@@ -1,0 +1,135 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"fhavenBank01" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit"	: 3,
+					"value"		: 1000,
+					"rarity"	: 200 // not 100 like other banks, because it's limited to 1 terrain, desert
+				},
+				"levels":
+				[
+					{
+						"chance": 15,
+						"guards":
+						[
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"wood" : 9,
+								"gold" : 1500
+							},
+							"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 15,
+						"guards":
+						[
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"wood" : -9,
+								"gold" : -1500
+							},
+							"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"wood" : 12,
+								"gold" : 2000
+							},
+							"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"wood" : -12,
+								"gold" : -2000
+							},
+							"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" }, { "class" : "TREASURE" }, { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 15,
+						"guards":
+						[
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"wood" : 15,
+								"gold" : 2500
+							},
+							"artifacts": [ { "class" : "MINOR" }, { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 15,
+						"guards":
+						[
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"wood" : -15,
+								"gold" : -2500
+							},
+							"artifacts": [ { "class" : "MINOR" }, { "class" : "MINOR" }, { "class" : "MINOR" }, { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
