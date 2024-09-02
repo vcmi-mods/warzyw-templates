@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.15",
+	"version" : "1.16",
  
     "changelog" :
     {
@@ -32,7 +32,8 @@
         "1.12"   : [ "added submod with Abyss Town creature banks to Brawl and enabled water" ],
         "1.13"   : [ "added submod with Antagarich Burning creature banks to Brawl" ],
         "1.14"   : [ "added submod with Cetatea Town creature banks to Brawl" ],
-        "1.15"   : [ "added submod with Fairy Town creature banks to Brawl" ]
+        "1.15"   : [ "added submod with Fairy Town creature banks to Brawl" ],
+        "1.16"   : [ "added submod with Pavilion Town creature banks to Brawl" ]
     },
 
 	"compatibility" :
