@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.15",
+	"version" : "1.16",
  
     "changelog" :
     {
@@ -34,7 +34,8 @@
         "1.12"   : [ "added smaller versions of the Abyss Town creature banks", "enabled Water" ],
         "1.13"   : [ "added smaller version of Antagarich Burning's Grand Conflux" ],
         "1.14"   : [ "added smaller versions of the Cetatea Town's Ancient Citadel" ],
-        "1.15"   : [ "added smaller versions of the Fairy Town's Fairies Bank" ]
+        "1.15"   : [ "added smaller versions of the Fairy Town's Fairies Bank" ],
+        "1.16"   : [ "new version of HotA's maxi Pirate Cavern" ]
     },
 
 	"compatibility" :

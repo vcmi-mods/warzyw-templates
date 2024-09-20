@@ -66,7 +66,7 @@
 						}
 					},
 					{
-						"chance": 10,
+						"chance": 5,
 						"guards": [
 							{ "amount": 4, "type": "pirate", "upgradeChance": 50 },
 							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
@@ -81,6 +81,24 @@
 								"gold" : 6
 							},
 							"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50},  { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50}  ]
+						}
+					},
+					{
+						"chance": 5,
+						"guards": [
+							{ "amount": 1, "type": "seaDogCopy" },
+							{ "amount": 1, "type": "seaDogCopy" },
+							{ "amount": 1, "type": "seaDogCopy" },
+							{ "amount": 1, "type": "seaDogCopy" }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources":
+							{
+								"gold" : 7
+							},
+							"creatures": [ { "amount": 1, "type": "nix", "upgradeChance": 50 } ]
 						}
 					}
 				]

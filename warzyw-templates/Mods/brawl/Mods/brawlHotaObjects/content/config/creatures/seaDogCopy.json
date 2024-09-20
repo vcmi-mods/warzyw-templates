@@ -1,0 +1,104 @@
+{
+	"seaDogCopy" : {
+		"name" : {
+			"singular" : "Sea Dog",
+			"plural" : "Sea Dogs"
+		},
+		"faction" : "cove",
+		"special" : true,
+		"excludeFromRandomization" : true,
+		"hasDoubleWeek" : false,
+		"level" : 8, // don't generate these on custom maps as a random level 3 creature
+		"cost" : { "gold" : 375 },
+		"speed" : 8,
+		"hitPoints" : 15,
+		"attack" : 12,
+		"defense" : 11,
+		"damage" : {
+			"min" : 3,
+			"max" : 7
+		},
+		"fightValue" : 379,
+		"aiValue" : 370,
+		"shots" : 10,
+		"growth" : 7,
+		"advMapAmount" : {
+			"min" : 120, // don't generate these on random maps
+			"max" : 180
+		},
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noPenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"accurateShotFullRange" : {
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareNoRangePenalty",
+				"val" : 3,
+				"addInfo" : "spell.accurateShot"
+			},
+			"accurateShotHalfRange" : {
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareRangePenalty",
+				"val" : 2,
+				"addInfo" : "spell.accurateShot"
+			},
+			"summonPower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"summonCasts" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"duplicateSeaDogCopy" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.summonSeaDogCopy",
+				"val" : 1,
+				"addInfo" : 0
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/iconsLarge/seadogcopy.png",
+			"iconSmall" : "creatures/iconsSmall/seadogcopy.png",
+			"map" : "creatures/adventureMap/seadogcopy.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "creatures/battle/seadogcopy.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "creatures/battle/projectile/piratecopy.def",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/piratecopy/PIRTATTK.wav",
+			"defend" : "creatures/piratecopy/PIRTDFND.wav",
+			"killed" : "creatures/piratecopy/PIRTKILL.wav",
+			"move" : "creatures/piratecopy/PIRTMOVE.wav",
+			"shoot" : "creatures/piratecopy/PIRTSHOT.wav",
+			"wince" : "creatures/piratecopy/PIRTWNCE.wav"
+		}
+	}
+}
