@@ -1,0 +1,39 @@
+{
+    "name" : "brawlHavenObjects",
+
+    "description" : "Modified Haven Town objects used by template Brawl, should be better suited for short games on small maps.<br>Pirate Keep:<br>30% chance, 5x 3 Arbalists, reward: 1500 Gold, 9 Wood, 2 Treasure Artifacts<br>40% chance, 5x 4 Arbalists, reward: 2000 Gold, 12 Wood, Treasure Artifact, Minor Artifact<br>30% chance, 5x 5 Arbalists, reward: 2500 Gold, 15 Wood, 2 Minor Artifacts<br>50% chance to get twice more Artifacts but lose Gold and Wood instead of gaining it<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+
+    "author" : "Warzyw647",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "warzyw647 on heroes-themed Discords",
+
+    "modType" : "Objects",
+	
+	"objects" :
+	[
+		"config/banks/fhavenBank01.json"
+	],
+	
+	"version" : "1.0",
+
+ 	"depends" : 
+	[
+		"haven-town"
+	],
+
+    "changelog" :
+    {
+        "1.0"   : [ "made banks smaller" ]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.6"
+	},
+	
+    "keepDisabled" : true
+}

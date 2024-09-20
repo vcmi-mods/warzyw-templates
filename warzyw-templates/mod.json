@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.16",
+	"version" : "1.18",
  
     "changelog" :
     {
@@ -33,7 +33,9 @@
         "1.13"   : [ "added submod with Antagarich Burning creature banks to Brawl" ],
         "1.14"   : [ "added submod with Cetatea Town creature banks to Brawl" ],
         "1.15"   : [ "added submod with Fairy Town creature banks to Brawl" ],
-        "1.16"   : [ "new version of HotA's maxi Pirate Cavern in Brawl" ]
+        "1.16"   : [ "added submod with Haven Town creature banks to Brawl" ],
+        "1.17"   : [ "added submod with Pavilion Town creature banks to Brawl" ],
+        "1.18"   : [ "new version of HotA's maxi Pirate Cavern in Brawl" ]
     },
 
 	"compatibility" :
