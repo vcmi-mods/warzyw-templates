@@ -1,0 +1,89 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ftfuryBank" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit"	: 3,
+					"value"		: 2500,
+					"rarity"	: 100 // boosted because it is limited to few terrains
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type" : "tartarc5", "upgradeChance": 20 },
+							{ "amount": 3, "type" : "tartarc6", "upgradeChance": 20 },
+							{ "amount": 2, "type" : "tides-of-war.alternative-creatures:mdtSukkub", "upgradeChance": 20 },
+							{ "amount": 2, "type" : "tides-of-war.alternative-creatures:mdtLilim", "upgradeChance": 20 }
+						],
+						"reward" : {
+							"resources": 
+							{
+								"gold" : 600,
+								"mercury" : 2,
+								"sulfur" : 2
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 4, "type" : "tartarc5", "upgradeChance": 20 },
+							{ "amount": 4, "type" : "tartarc6", "upgradeChance": 20 },
+							{ "amount": 3, "type" : "tides-of-war.alternative-creatures:mdtSukkub", "upgradeChance": 20 },
+							{ "amount": 3, "type" : "tides-of-war.alternative-creatures:mdtLilim", "upgradeChance": 20  }
+						],
+						"reward" : {
+							"resources": 
+							{
+								"gold" : 800,
+								"mercury" : 3,
+								"sulfur" : 3
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type" : "tartarc5", "upgradeChance": 20 },
+							{ "amount": 5, "type" : "tartarc6", "upgradeChance": 20 },
+							{ "amount": 4, "type" : "tides-of-war.alternative-creatures:mdtSukkub", "upgradeChance": 20 },
+							{ "amount": 4, "type" : "tides-of-war.alternative-creatures:mdtLilim", "upgradeChance": 20  }
+						],
+						"reward" : {
+							"resources": 
+							{
+								"gold" : 1000,
+								"mercury" : 5,
+								"sulfur" : 5
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 6, "type" : "tartarc5", "upgradeChance": 20 },
+							{ "amount": 6, "type" : "tartarc6", "upgradeChance": 20 },
+							{ "amount": 5, "type" : "tides-of-war.alternative-creatures:mdtSukkub", "upgradeChance": 20 },
+							{ "amount": 5, "type" : "tides-of-war.alternative-creatures:mdtLilim", "upgradeChance": 20 }
+						],
+						"reward" : {
+							"resources": 
+							{
+								"gold" : 1200,
+								"mercury" : 7,
+								"sulfur" : 7
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

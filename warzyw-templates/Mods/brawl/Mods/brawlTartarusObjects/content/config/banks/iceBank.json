@@ -1,0 +1,90 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ftIceBank" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 3,
+					"value"		: 1500,
+					"rarity"	: 200 // boosted because it is limited to few terrains
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "tartarc1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 2,
+								"gold" : 500
+							},
+							"creatures": [ { "amount": 4, "type": "tartarc3", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 13, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 13, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 13, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 13, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 13, "type": "tartarc1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 3,
+								"gold" : 650
+							},
+							"creatures": [ { "amount": 3, "type": "tartarc5", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 16, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 16, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 16, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 16, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 16, "type": "tartarc1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 3,
+								"gold" : 800
+							},
+							"creatures": [ { "amount": 2, "type": "tartarc7", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "tartarc1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "tartarc1", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"mercury" : 4,
+								"gold" : 1000
+							},
+							"creatures": [ { "amount": 1, "type": "tartarc9", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
