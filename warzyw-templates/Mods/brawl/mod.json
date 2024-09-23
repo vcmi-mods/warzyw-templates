@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.18",
+	"version" : "1.19",
  
     "changelog" :
     {
@@ -37,7 +37,8 @@
         "1.15"   : [ "added smaller versions of the Fairy Town's Fairies Bank" ],
         "1.16"   : [ "added smaller versions of the Haven Town's Pirate Keep" ],
         "1.17"   : [ "added smaller versions of the Pavilion Town's Ziggurat" ],
-        "1.18"   : [ "new version of HotA's maxi Pirate Cavern" ]
+        "1.18"   : [ "new version of HotA's maxi Pirate Cavern" ],
+        "1.19"   : [ "added smaller versions of the Tartarus Town's Quasit Cache and Bloody Tower" ]
     },
 
 	"compatibility" :

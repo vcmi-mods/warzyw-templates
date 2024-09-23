@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.18",
+	"version" : "1.19",
  
     "changelog" :
     {
@@ -35,7 +35,8 @@
         "1.15"   : [ "added submod with Fairy Town creature banks to Brawl" ],
         "1.16"   : [ "added submod with Haven Town creature banks to Brawl" ],
         "1.17"   : [ "added submod with Pavilion Town creature banks to Brawl" ],
-        "1.18"   : [ "new version of HotA's maxi Pirate Cavern in Brawl" ]
+        "1.18"   : [ "new version of HotA's maxi Pirate Cavern in Brawl" ],
+        "1.19"   : [ "added submod with Tartarus Town creature banks to Brawl" ]
     },
 
 	"compatibility" :
