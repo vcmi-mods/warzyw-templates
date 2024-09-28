@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.19",
+	"version" : "1.20",
  
     "changelog" :
     {
@@ -38,7 +38,8 @@
         "1.16"   : [ "added smaller versions of the Haven Town's Pirate Keep" ],
         "1.17"   : [ "added smaller versions of the Pavilion Town's Ziggurat" ],
         "1.18"   : [ "new version of HotA's maxi Pirate Cavern" ],
-        "1.19"   : [ "added smaller versions of the Tartarus Town's Quasit Cache and Bloody Tower" ]
+        "1.19"   : [ "added smaller versions of the Tartarus Town's Quasit Cache and Bloody Tower" ],
+        "1.20"   : [ "added smaller versions of the Refugee Town's Mysterious Lamp", "weakened the Daeva creature" ]
     },
 
 	"compatibility" :
