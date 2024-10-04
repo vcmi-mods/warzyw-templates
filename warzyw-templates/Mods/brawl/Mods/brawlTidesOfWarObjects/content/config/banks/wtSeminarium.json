@@ -1,0 +1,81 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtSeminarium" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit" : 1,
+					"value" : 1500,
+					"rarity" : 60
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards":
+						[
+							{ "amount": 6, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 6, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 6, "type": "pikeman", "upgradeChance": 75 },
+							{ "amount": 6, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 6, "type": "pikeman", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"creatures": [ { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards":
+						[
+							{ "amount": 8, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 8, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 8, "type": "pikeman", "upgradeChance": 75 },
+							{ "amount": 8, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 8, "type": "pikeman", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"creatures": [ { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 75 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"creatures": [ { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 75 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 },
+							{ "amount": 10, "type": "pikeman", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"creatures": [ { "amount": 1, "type": "mdtTemplar", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

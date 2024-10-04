@@ -1,0 +1,55 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtOutpostOfSouls" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit" : 1,
+					"value" : 3000,
+					"rarity" : 50
+				},
+				"levels":
+				[
+					{
+						"chance": 80,
+						"guards":
+						[
+							{ "amount" : 1, "type" : "powerLich", "upgradeChance": 50 }, // in case they get an upgrade somewhere
+							{ "amount" : 1, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "powerLich", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"creatures": [ { "amount": 1, "type": "mdtDemilich", "upgradeChance": 50 } ] // in case they ever get an upgrade
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount" : 2, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "powerLich", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "powerLich", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"artifacts" : [ "mdtMinorPhylactery" ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
