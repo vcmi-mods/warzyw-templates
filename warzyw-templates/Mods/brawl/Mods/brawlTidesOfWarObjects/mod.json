@@ -1,0 +1,48 @@
+{
+    "name" : "brawlTidesOfWarObjects",
+
+    "description" : "Modified Tides of War objects used by template Brawl, should be better suited for short games on small maps.<br>Bone Pillar: defended by 7x 1-3 Ghosts, reward: 1000-2000 Gold, 2-4 Ghosts<br>Outpost of Souls: defended by 7x 1-2 Power Liches, reward: 1 Demilich or Minor Phylactery<br>Phantom Ship: defended by 7x 1-3 Dread Skippers, reward: 2-4 Dread Skippers and 1000-2000 Gold on land, 4-8 Dread Skippers and 1500-2500 Gold on water (because getting to any object on water requires a turn of boarding)<br>Scriptorium: defended by 5x 1-3 Monks (guard count lowered 10 times), rewards (Gold rewards halved, rest of rewards left untouched): 1/2/3/4 Gems, 0/2/3/4 Crystals, 0/0/3/4 Sulfur and 0/0/0/4 Mercury, a Level 1 or 2 Spell, 1250/1625/2000/2750 Gold, Artifacts: none/Minor/Minor/Treasure+Major<br>Seminarium: defended by 5x 6/8/10 Pikemen, rewards: 3/4/5 Swordmen or 1 Templar instead of the 5 Swordmen<br>Sorceress Castle: guarded by 3/4 Tritons, 2/0 Mermaids, 2/3 Dryads, 2/3 Succubi, 2/3 Werewolves, 1/2 Illithids, 1/2 Troll Hag and 0/1 Coatl, rewards: a Level 3 Spell, a Level 2 or 4 Spell, a Statue of Legion component, a Coruncopia component or a Golden Goose component or Wood and Ore Carts<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+
+    "author" : "Warzyw647",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "warzyw647 on heroes-themed Discords",
+
+    "modType" : "Objects",
+	
+	"objects" :
+	[
+		"config/banks/wtBonePillar.json",
+		"config/banks/wtOutpostOfSouls.json",
+		"config/banks/wtPhantomShip.json",
+		"config/banks/wtScriptorium.json",
+		"config/banks/wtSeminarium.json",
+		"config/banks/wtSorceressCastle.json"
+	],
+	
+	"version" : "1.0",
+
+ 	"depends" : 
+	[
+		"tides-of-war",
+		"tides-of-war.neutral-creatures",
+		"tides-of-war.alternative-creatures",
+		"tides-of-war.artifacts",
+		"tides-of-war.banks"
+	],
+
+    "changelog" :
+    {
+        "1.0"   : [ "made banks smaller" ]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.6"
+	},
+	
+    "keepDisabled" : true
+}

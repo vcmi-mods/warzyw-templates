@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.20",
+	"version" : "1.21",
  
     "changelog" :
     {
@@ -39,7 +39,8 @@
         "1.17"   : [ "added smaller versions of the Pavilion Town's Ziggurat" ],
         "1.18"   : [ "new version of HotA's maxi Pirate Cavern" ],
         "1.19"   : [ "added smaller versions of the Tartarus Town's Quasit Cache and Bloody Tower" ],
-        "1.20"   : [ "added smaller versions of the Refugee Town's Mysterious Lamp", "weakened the Daeva creature" ]
+        "1.20"   : [ "added smaller versions of the Refugee Town's Mysterious Lamp", "weakened the Daeva creature" ],
+        "1.21"   : [ "added smaller versions of the Tides of War's Bone Pillar, Outpost of Souls, Phantom Ship, Scriptorium, Seminarium and Sorceress Castle" ]
     },
 
 	"compatibility" :

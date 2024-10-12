@@ -1,0 +1,85 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtBonePillar" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit" : 1,
+					"mapLimit" : 4,
+					"value" : 2500,
+					"rarity" : 100
+				},
+				"levels":
+				[
+					{
+						"chance": 50,
+						"guards":
+						[
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 }, // in case they ever get an upgrade
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1000
+							},
+							"creatures": [ { "amount": 2, "type": "mdtGhost", "upgradeChance": 50 } ] // in case they ever get an upgrade
+						}
+					},
+					{
+						"chance": 30,
+						"guards":
+						[
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 1500
+							},
+							"creatures": [ { "amount": 3, "type": "mdtGhost", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 2000
+							},
+							"creatures": [ { "amount": 4, "type": "mdtGhost", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

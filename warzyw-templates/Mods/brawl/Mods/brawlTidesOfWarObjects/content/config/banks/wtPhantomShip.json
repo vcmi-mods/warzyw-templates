@@ -1,0 +1,160 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtDreadSkipperBankWater" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit" : 3,
+					"value" : 2000,
+					"rarity" : 100
+				},
+				"levels":
+				[
+					{
+						"chance": 50,
+						"guards":
+						[
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 }, // in case they ever get an upgrade
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources" :
+							{
+								"gold" : 1500
+							},
+							"creatures": [ { "amount": 4, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards":
+						[
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources" :
+							{
+								"gold" : 2000
+							},
+							"creatures": [ { "amount": 6, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources" :
+							{
+								"gold" : 2500
+							},
+							"creatures": [ { "amount": 8, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			},
+			"mdtDreadSkipperBankLand" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit" : 3,
+					"value" : 2000,
+					"rarity" : 50
+				},
+				"levels":
+				[
+					{
+						"chance": 50,
+						"guards":
+						[
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources" :
+							{
+								"gold" : 1000
+							},
+							"creatures": [ { "amount": 2, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards":
+						[
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources" :
+							{
+								"gold" : 1500
+							},
+							"creatures": [ { "amount": 4, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources" :
+							{
+								"gold" : 2000
+							},
+							"creatures": [ { "amount": 6, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
