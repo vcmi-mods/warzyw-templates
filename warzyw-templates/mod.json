@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.22",
+	"version" : "1.23",
  
     "changelog" :
     {
@@ -39,7 +39,8 @@
         "1.19"   : [ "added submod with Tartarus Town creature banks to Brawl" ],
         "1.20"   : [ "added submod with Refugee Town creature banks and creatures to Brawl" ],
         "1.21"   : [ "fixed error with missing towns in Sim City", "alternative guards on all connections in Sim City" ],
-        "1.22"   : [ "added submod with Tides of War creature banks to Brawl" ]
+        "1.22"   : [ "added submod with Tides of War creature banks to Brawl" ],
+        "1.23"   : [ "small tweaks of bank Ruins in submod HotA Banks in Brawl" ]
     },
 
 	"compatibility" :
