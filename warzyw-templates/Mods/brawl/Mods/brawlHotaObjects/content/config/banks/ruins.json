@@ -1,0 +1,16 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ruins" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 3000,
+					"rarity"	: 50
+				}
+			}
+		}
+	}
+}
