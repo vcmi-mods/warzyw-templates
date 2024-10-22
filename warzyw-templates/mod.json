@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.23",
+	"version" : "1.24",
  
     "changelog" :
     {
@@ -40,7 +40,8 @@
         "1.20"   : [ "added submod with Refugee Town creature banks and creatures to Brawl" ],
         "1.21"   : [ "fixed error with missing towns in Sim City", "alternative guards on all connections in Sim City" ],
         "1.22"   : [ "added submod with Tides of War creature banks to Brawl" ],
-        "1.23"   : [ "small tweaks of bank Ruins in submod HotA Banks in Brawl" ]
+        "1.23"   : [ "small tweaks of bank Ruins in submod HotA Banks in Brawl" ],
+        "1.24"   : [ "nerfed Spellbinder's Hat nerf in Arena", "automatically enabled Arena submod, with tournament in mind" ]
     },
 
 	"compatibility" :

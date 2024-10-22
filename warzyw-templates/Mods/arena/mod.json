@@ -1,7 +1,7 @@
 {
     "name" : "nowa-arena",
 
-    "description" : "Map Nowa Arena and a bunch of modifications for it.<br>Control Spells banned<br>Strong Relics come with a curse:<br>Heavenly Helm -3 Morale and Luck, SoJ and Lion's Shield -2, Celestial Necklace and Sandals -1<br>Magic Tomes summon Elementals for the opponent once when combat starts<br>Titan Artifacts give opponent Chain Lightning strikes after each hit, 1 damage per creature<br>Machberet's Hat gives the level 5 spells to the opponent as well<br>Good and Bad Morale and Luck chances increased to 1/10, 1/9, 1/8 etc. up to 100% at +-10<br>Max high attack multiplier increased to 20 (at +380 attack), max damage reduction upped to 100% (at +40 defence)<br>Spell Damage doubled, mana halved<br>Max 100 buildings per turn in each town<br>Black Markets restock every other day<br>Starting Resources changed to fit the map<br>Creature Growth x5 (you get that on day 1 of week 2) and a day 2 event in towns gives you extra 5 level 7, 10 level 6, 20 level 5 etc. to recruit",
+    "description" : "Map Nowa Arena and a bunch of modifications for it.<br>Control Spells banned<br>Strong Relics come with a curse:<br>Heavenly Helm -3 Morale and Luck, SoJ and Lion's Shield -2, Celestial Necklace and Sandals -1<br>Magic Tomes summon Elementals for the opponent once when combat starts<br>Titan Artifacts give opponent Chain Lightning strikes after each hit, 1 damage per creature<br>Machberet's Hat gives the level 3 spells to the opponent<br>Good and Bad Morale and Luck chances increased to 1/10, 1/9, 1/8 etc. up to 100% at +-10<br>Max high attack multiplier increased to 20 (at +380 attack), max damage reduction upped to 100% (at +40 defence)<br>Spell Damage doubled, mana halved<br>Max 100 buildings per turn in each town<br>Black Markets restock every other day<br>Starting Resources changed to fit the map<br>Creature Growth x5 (you get that on day 1 of week 2) and a day 2 event in towns gives you extra 5 level 7, 10 level 6, 20 level 5 etc. to recruit",
 
     "author" : "Warzyw647",
 
@@ -13,7 +13,7 @@
 
     "modType" : "Other",
 	
-	"version" : "1.0",
+	"version" : "1.01",
 	
 	"spells" :
 	[
@@ -72,7 +72,8 @@
  
     "changelog" :
     {
-        "1.0"   : [ "initial release" ]
+        "1.0"   : [ "initial release" ],
+        "1.01"   : [ "Spellbinder gives opponent level 3 spells instead of 5", "automatically enabled Arena submod, with tournament in mind" ]
     },
 
 	"artifacts" :
@@ -98,5 +99,5 @@
 		"min" : "1.5.6"
 	},
 	
-    "keepDisabled" : true
+    "keepDisabled" : false
 }

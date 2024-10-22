@@ -1,0 +1,102 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"churchyard" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type": "halfling" },
+							{ "amount": 8, "type": "halfling" },
+							{ "amount": 80, "type": "peasant" },
+							{ "amount": 80, "type": "peasant" },
+							{ "amount": 80, "type": "peasant" },
+							{ "amount": 8, "type": "halfling" }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources":
+							{
+								"gold" : 800
+							},
+							"creatures": [ { "amount": 4, "type": "walkingDead", "upgradeChance": 50 } ],
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type": "halfling" },
+							{ "amount": 10, "type": "halfling" },
+							{ "amount": 100, "type": "peasant" },
+							{ "amount": 100, "type": "peasant" },
+							{ "amount": 100, "type": "peasant" },
+							{ "amount": 10, "type": "halfling" }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources":
+							{
+								"gold" : 1000
+							},
+							"creatures": [ { "amount": 5, "type": "walkingDead", "upgradeChance": 50 } ],
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type": "halfling" },
+							{ "amount": 12, "type": "halfling" },
+							{ "amount": 120, "type": "peasant" },
+							{ "amount": 120, "type": "peasant" },
+							{ "amount": 120, "type": "peasant" },
+							{ "amount": 12, "type": "halfling" }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources":
+							{
+								"gold" : 1200
+							},
+							"creatures": [ { "amount": 6, "type": "walkingDead", "upgradeChance": 50 } ],
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 15, "type": "halfling" },
+							{ "amount": 15, "type": "halfling" },
+							{ "amount": 150, "type": "peasant" },
+							{ "amount": 150, "type": "peasant" },
+							{ "amount": 150, "type": "peasant" },
+							{ "amount": 15, "type": "halfling" }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources":
+							{
+								"gold" : 1500
+							},
+							"creatures": [ { "amount": 8, "type": "walkingDead", "upgradeChance": 50 } ],
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
