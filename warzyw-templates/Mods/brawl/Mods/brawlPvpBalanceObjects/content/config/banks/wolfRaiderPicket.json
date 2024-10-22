@@ -1,0 +1,98 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"wolfRaiderPicket" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1000,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 6, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 6, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 6, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 6, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 6, "type": "goblinWolfRider", "upgradeChance": 50 }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources":
+							{
+								"wood" : 2,
+								"ore" : 2
+							},
+							"creatures": [ { "amount": 3, "type": "orc", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 8, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 8, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 8, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 8, "type": "goblinWolfRider", "upgradeChance": 50 }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources":
+							{
+								"wood" : 2,
+								"ore" : 2
+							},
+							"creatures": [ { "amount": 4, "type": "orc", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 10, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 10, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 10, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 10, "type": "goblinWolfRider", "upgradeChance": 50 }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources":
+							{
+								"wood" : 3,
+								"ore" : 3
+							},
+							"creatures": [ { "amount": 5, "type": "orc", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 12, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 12, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 12, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 12, "type": "goblin", "upgradeChance": 50 },
+							{ "amount": 12, "type": "goblinWolfRider", "upgradeChance": 50 }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources":
+							{
+								"wood" : 3,
+								"ore" : 3
+							},
+							"creatures": [ { "amount": 6, "type": "orc", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

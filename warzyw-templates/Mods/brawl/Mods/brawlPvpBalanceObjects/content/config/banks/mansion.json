@@ -1,0 +1,110 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mansion" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord"},
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+								"gold" : 1200,
+								"mercury": 2,
+								"sulfur": 2,
+								"gems" : 2,
+								"crystal" : 2		
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord"},
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord" }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources": 
+							{
+								"gold" : 1400,
+								"mercury": 2,
+								"sulfur": 2,
+								"gems" : 2,
+								"crystal" : 2		
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord"},
+							{ "amount": 2, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord" }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources": 
+							{
+								"gold" : 1600,
+								"mercury": 3,
+								"sulfur": 3,
+								"gems" : 3,
+								"crystal" : 3		
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord"},
+							{ "amount": 2, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord" }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources": 
+							{
+								"gold" : 1800,
+								"mercury": 3,
+								"sulfur": 3,
+								"gems" : 3,
+								"crystal" : 3		
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
