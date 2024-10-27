@@ -13,7 +13,7 @@
 
     "modType" : "Other",
 	
-	"version" : "1.01",
+	"version" : "1.02",
 	
 	"spells" :
 	[
@@ -73,7 +73,8 @@
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
-        "1.01"   : [ "Spellbinder gives opponent level 3 spells instead of 5", "automatically enabled Arena submod, with tournament in mind" ]
+        "1.01"   : [ "Spellbinder gives opponent level 3 spells instead of 5", "automatically enabled Arena submod, with tournament in mind" ],
+        "1.02"   : [ "added signs with gameplay changes to the map, same as in the mod's description", "added lower observatories to the map", "added Polish translation"]
     },
 
 	"artifacts" :
