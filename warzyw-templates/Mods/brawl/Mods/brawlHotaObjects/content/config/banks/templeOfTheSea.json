@@ -1,0 +1,49 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"templeOfTheSea" :
+			{
+				"resetDuration" : 4, // leave value and density alone because there are no guards on water
+				"levels":
+				[
+					{
+						"chance": 50,
+						"guards":
+						[
+							{ "amount": 1, "type": "nix", "upgradeChance": 50 },
+							{ "amount": 1, "type": "wyvern", "upgradeChance": 50 },
+							{ "amount": 1, "type": "seaserpent", "upgradeChance": 50 },
+							{ "amount": 1, "type": "hydra", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"gold" : 5000
+							},
+							"artifacts": [ { "class" : "MAJOR" }, { "class" : "MAJOR" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 50,
+						"guards":
+						[
+							{ "amount": 1, "type": "wyvern", "upgradeChance": 50 },
+							{ "amount": 1, "type": "nix", "upgradeChance": 50 },
+							{ "amount": 1, "type": "hydra", "upgradeChance": 50 },
+							{ "amount": 1, "type": "seaserpent", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"gold" : 5000
+							},
+							"artifacts": [ { "class" : "RELIC" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

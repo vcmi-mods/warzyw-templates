@@ -1,0 +1,67 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"beholderSanctuary" : {
+				"resetDuration" : 4, // leave value and density alone because there are no guards on water
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources": 
+							{
+								"gold" : 1500
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources": 
+							{
+								"gold" : 2500
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources": 
+							{
+								"gold" : 3500
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

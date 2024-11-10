@@ -1,0 +1,49 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"fhavenBank02" :
+			{
+				"resetDuration" : 4, // leave value and density alone because there are no guards on water
+				"levels":
+				[
+					{
+						"chance": 50,
+						"guards":
+						[
+							{ "amount": 1, "type": "havC09", "upgradeChance": 50 },
+							{ "amount": 1, "type": "havC11", "upgradeChance": 50 },
+							{ "amount": 1, "type": "havC11B", "upgradeChance": 50 },
+							{ "amount": 1, "type": "havC13", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"gold" : 5000
+							},
+							"artifacts": [ { "class" : "MAJOR" }, { "class" : "MAJOR" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 50,
+						"guards":
+						[
+							{ "amount": 1, "type": "havC09", "upgradeChance": 50 },
+							{ "amount": 1, "type": "havC11", "upgradeChance": 50 },
+							{ "amount": 1, "type": "havC11B", "upgradeChance": 50 },
+							{ "amount": 1, "type": "havC13", "upgradeChance": 50 }
+						],
+						"reward" : {
+							"resources":
+							{
+								"gold" : 5000
+							},
+							"artifacts": [ { "class" : "RELIC" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
