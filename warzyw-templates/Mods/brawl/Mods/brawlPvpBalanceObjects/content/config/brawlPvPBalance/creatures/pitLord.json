@@ -1,0 +1,13 @@
+{
+	"core:pitLord" :
+	{
+		"abilities" :
+		{
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			}
+		}
+	}
+}

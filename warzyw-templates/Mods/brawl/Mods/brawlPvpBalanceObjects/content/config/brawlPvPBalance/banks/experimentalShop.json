@@ -38,7 +38,7 @@
 						"combat_value": 702,
 						"reward" : {
 							"value": 6000,
-							"creatures": [ { "amount": 3, "type": "camelRider", "upgradeChance": 50 } ]
+							"creatures": [ { "amount": 1, "type": "camelRider", "upgradeChance": 50 }, { "amount": 1, "type": "camelRider", "upgradeChance": 50 }, { "amount": 1, "type": "camelRider", "upgradeChance": 50 } ]
 						}
 					},
 					{

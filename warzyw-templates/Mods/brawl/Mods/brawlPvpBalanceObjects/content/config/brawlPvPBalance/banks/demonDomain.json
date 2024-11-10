@@ -1,0 +1,79 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"demonDomain" :
+			{
+				"resetDuration" : 4,
+				"rmg" : {
+					"value"	: 1500,
+					"rarity"	: 100,
+					"zoneLimit" : 2
+				},
+				"levels": [
+					{
+						"chance": 25,
+						"guards": [
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 9, "type" : "imp", "upgradeChance": 50 },
+							{ "amount": 9, "type" : "imp", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 9, "type" : "imp", "upgradeChance": 50 }
+						],
+						"combat_value": 9000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 1, "type": "fireElemental", "upgradeChance": 50 }, { "amount": 1, "type": "fireElemental", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 25,
+						"guards": [
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 3, "type" : "gog", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "gog", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 3, "type" : "gog", "upgradeChance": 50 }
+						],
+						"combat_value": 12000,
+						"reward" : {
+							"value": 8000,
+							"creatures": [ { "amount": 1, "type": "fireElemental", "upgradeChance": 50 }, { "amount": 1, "type": "fireElemental", "upgradeChance": 50 }, { "amount": 1, "type": "fireElemental", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 25,
+						"guards": [
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 2, "type" : "hellHound", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "hellHound", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 2, "type" : "hellHound", "upgradeChance": 50 }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"creatures": [ { "amount": 1, "type": "energyElemental", "upgradeChance": 50 }, { "amount": 1, "type": "energyElemental", "upgradeChance": 50 } ]
+						}
+					},
+					{
+						"chance": 25,
+						"guards": [
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 1, "type" : "demon", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "demon", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "pitLord" },
+							{ "amount": 1, "type" : "demon", "upgradeChance": 50 }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"creatures": [ { "amount": 1, "type": "energyElemental", "upgradeChance": 50 }, { "amount": 1, "type": "energyElemental", "upgradeChance": 50 }, { "amount": 1, "type": "energyElemental", "upgradeChance": 50 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
