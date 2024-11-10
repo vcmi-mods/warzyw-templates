@@ -1,7 +1,7 @@
 {
     "name" : "brawl",
 
-    "description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl,<br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.",
+    "description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl,<br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.<br>Densities of Treasures in Water Zones up to 5/10/20 in the intervals with high/intermediate/low treasure values. In case someone wants to play with Water, especially with Water-themed mods.",
 
     "author" : "Warzyw647",
 
@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.23",
+	"version" : "1.24",
  
     "changelog" :
     {
@@ -42,7 +42,8 @@
         "1.20"   : [ "added smaller versions of the Refugee Town's Mysterious Lamp", "weakened the Daeva creature" ],
         "1.21"   : [ "added smaller versions of the Tides of War's Bone Pillar, Outpost of Souls, Phantom Ship, Scriptorium, Seminarium and Sorceress Castle" ],
         "1.22"   : [ "value, rarity and revisitability tweaks in HotA's Ruins" ],
-        "1.23"   : [ "added submod with PvP Balance creature banks to Brawl" ]
+        "1.23"   : [ "added submod with PvP Balance creature banks to Brawl" ],
+        "1.24"   : [ "smaller water banks in Brawl Objects submods core, HotA and Haven", "drastically increased treasure densities in Water Zones" ]
     },
 
 	"compatibility" :

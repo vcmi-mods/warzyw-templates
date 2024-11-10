@@ -1,0 +1,72 @@
+{
+	"core:derelictShip" :
+	{
+		"types" :
+		{
+			"derelictShip" : {
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources": 
+							{
+								"gold" : 2000
+							}
+						}
+					},
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources": 
+							{
+								"gold" : 2500
+							},
+							
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources": 
+							{
+								"gold" : 3000
+							},
+							
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
