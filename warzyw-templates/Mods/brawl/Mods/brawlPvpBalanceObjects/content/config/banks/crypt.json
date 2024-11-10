@@ -1,0 +1,92 @@
+{
+	"core:crypt" :
+	{
+		"types" :
+		{
+			"crypt" : {
+				"resetDuration" : 4,
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1000,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type": "skeleton", "upgradeChance": 50 },
+							{ "amount": 5, "type": "walkingDead", "upgradeChance": 50 },
+							{ "amount": 5, "type": "walkingDead", "upgradeChance": 50 },
+							{ "amount": 8, "type": "skeleton", "upgradeChance": 50 },
+							{ "amount": 8, "type": "skeleton", "upgradeChance": 50 }
+						],
+						"combat_value": 351,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+								"gold" : 799
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type": "skeleton", "upgradeChance": 50 },
+							{ "amount": 5, "type": "walkingDead", "upgradeChance": 50 },
+							{ "amount": 3, "type": "wight", "upgradeChance": 50 },
+							{ "amount": 5, "type": "walkingDead", "upgradeChance": 50 },
+							{ "amount": 10, "type": "skeleton", "upgradeChance": 50 }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"resources": 
+							{
+								"gold" : 999
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type": "skeleton", "upgradeChance": 50 },
+							{ "amount": 5, "type": "walkingDead", "upgradeChance": 50 },
+							{ "amount": 3, "type": "wight", "upgradeChance": 50 },
+							{ "amount": 1, "type": "vampire", "upgradeChance": 50 }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"resources": 
+							{
+								"gold" : 999
+							},
+							"creatures": [ { "amount": 1, "type": "wight", "upgradeChance": 50 } ],
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 10, "type": "skeleton", "upgradeChance": 50 },
+							{ "amount": 5, "type": "walkingDead", "upgradeChance": 50 },
+							{ "amount": 3, "type": "wight", "upgradeChance": 50 },
+							{ "amount": 2, "type": "vampire", "upgradeChance": 50 }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"resources": 
+							{
+								"gold" : 999
+							},
+							"creatures": [ { "amount": 2, "type": "wight", "upgradeChance": 50 } ],
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
