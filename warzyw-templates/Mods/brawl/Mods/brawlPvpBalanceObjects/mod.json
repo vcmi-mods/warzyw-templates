@@ -20,6 +20,7 @@
 	"objects" :
 	[
 		"config/brawlPvPBalance/banks/crypt.json",
+		"config/brawlPvPBalance/banks/newCrypt.json",
 		"config/brawlPvPBalance/banks/dragonFlyHive.json",
 		"config/brawlPvPBalance/banks/griffinConservatory.json",
 		"config/brawlPvPBalance/banks/impCache.json",
@@ -28,7 +29,7 @@
 		"config/brawlPvPBalance/banks/redTower.json",
 		"config/brawlPvPBalance/banks/wolfRaiderPicket.json",
 		"config/brawlPvPBalance/banks/ruins.json",
-		"config/brawlPvPBalance/banks/sphinxZiggurat.json"
+		"config/brawlPvPBalance/banks/sphinxZiggurat.json",
 		"config/brawlPvPBalance/banks/wtBonePillar.json",
 		"config/brawlPvPBalance/banks/wtOutpostOfSouls.json",
 		"config/brawlPvPBalance/banks/wtScriptorium.json",
@@ -41,6 +42,22 @@
 
  	"depends" : 
 	[
+		"hota",
+		"forge2k",
+		"ruins-town",
+		"tides-of-war",
+		"vcmi-extras",
+		"zefix",
+		"hota.mapobjects",
+		"hota.neutralcreatures",
+		"hota.cove",
+		"hota.highlandsTerrain",
+		"new-pavilion",
+		"tides-of-war",
+		"tides-of-war.neutral-creatures",
+		"tides-of-war.alternative-creatures",
+		"tides-of-war.artifacts",
+		"tides-of-war.banks",
 		"warzyw-templates.brawl.brawlObjects",
 		"warzyw-templates.brawl.brawlHotaObjects",
 		"warzyw-templates.brawl.brawlPavilionObjects",
