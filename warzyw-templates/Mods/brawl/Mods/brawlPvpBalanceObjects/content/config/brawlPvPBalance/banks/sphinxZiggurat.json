@@ -1,0 +1,236 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"sphinxZiggurat" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit"	: 2,
+					"value"		: 2000,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 5,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 4,
+								"gold" : 1500
+							},
+						"spells": [ { "school" : "air" }, { "school" : "water" } ]
+						}
+					},
+					{
+						"chance": 5,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 4,
+								"gold" : 1500
+							},
+						"spells": [ { "school" : "air" }, { "school" : "fire" } ]
+						}
+					},
+					{
+						"chance": 5,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 4,
+								"gold" : 1500
+							},
+						"spells": [ { "school" : "air" }, { "school" : "earth" } ]
+						}
+					},
+					{
+						"chance": 5,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 4,
+								"gold" : 1500
+							},
+						"spells": [ { "school" : "water" }, { "school" : "fire" } ]
+						}
+					},
+					{
+						"chance": 5,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 4,
+								"gold" : 1500
+							},
+						"spells": [ { "school" : "water" }, { "school" : "earth" } ]
+						}
+					},
+					{
+						"chance": 5,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 4,
+								"gems" : 4,
+								"gold" : 1500
+							},
+						"spells": [ { "school" : "fire" }, { "school" : "earth" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 6,
+								"gems" : 6,
+								"gold" : 2000
+							},
+						"spells": [ { "school" : "water" }, { "school" : "fire" }, { "school" : "earth" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 6,
+								"gems" : 6,
+								"gold" : 2000
+							},
+						"spells": [ { "school" : "air" }, { "school" : "fire" }, { "school" : "earth" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 6,
+								"gems" : 6,
+								"gold" : 2000
+							},
+						"spells": [ { "school" : "air" }, { "school" : "water" }, { "school" : "earth" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 6,
+								"gems" : 6,
+								"gold" : 2000
+							},
+						"spells": [ { "school" : "air" }, { "school" : "water" }, { "school" : "fire" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"crystal" : 8,
+								"gems" : 8,
+								"gold" : 2500
+							},
+						"spells": [ { "school" : "air" }, { "school" : "water" }, { "school" : "fire" }, { "school" : "earth" } ]
+						}
+					},
+				]
+			}
+		}
+	}
+}

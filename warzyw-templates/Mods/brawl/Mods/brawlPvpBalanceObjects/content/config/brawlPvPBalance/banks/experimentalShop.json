@@ -23,7 +23,7 @@
 						"combat_value": 351,
 						"reward" : {
 							"value": 3000,
-							"creatures": [ { "amount": 3, "type": "stoneGolem", "upgradeChance": 50 } ]
+							"creatures": [ { "amount": 5, "type": "venomousWadjet" } ]
 						}
 					},
 					{
@@ -38,7 +38,7 @@
 						"combat_value": 702,
 						"reward" : {
 							"value": 6000,
-							"creatures": [ { "amount": 3, "type": "ironGolem" } ]
+							"creatures": [ { "amount": 1, "type": "camelRider", "upgradeChance": 50 }, { "amount": 1, "type": "camelRider", "upgradeChance": 50 }, { "amount": 1, "type": "camelRider", "upgradeChance": 50 } ]
 						}
 					},
 					{
@@ -53,7 +53,7 @@
 						"combat_value": 1053,
 						"reward" : {
 							"value": 9000,
-							"creatures": [ { "amount": 3, "type": "steelGolem" } ]
+							"creatures": [ { "amount": 3, "type": "desertWarrior" } ]
 						}
 					},
 					{
@@ -68,7 +68,7 @@
 						"combat_value": 1404,
 						"reward" : {
 							"value": 12000,
-							"creatures": [ { "amount": 3, "type": "goldGolem" } ]
+							"creatures": [ { "amount": 2, "type": "ammut", "upgradeChance": 50 } ]
 						}
 					}
 				]
