@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.28",
+	"version" : "1.29",
  
     "changelog" :
     {
@@ -45,7 +45,8 @@
         "1.25"   : [ "added some Signs, another Observatory and PL translation to Arena" ],
         "1.26"   : [ "added submod with PvP Balance creature banks to Brawl" ],
         "1.27"   : [ "smaller water banks in Brawl submods", "increased treasure densities in Water Zones, done in Brawl submod, repeated in its PvP Balance Objects submod" ],
-        "1.28"   : [ "removed duplicate sound and animation files in HotA Objects submod of Brawl" ]
+        "1.28"   : [ "removed duplicate sound and animation files in HotA Objects submod of Brawl" ],
+        "1.29"   : [ "smaller Utopias added to PvP balance and Core Objects submods of Brawl" ]
     },
 
 	"compatibility" :

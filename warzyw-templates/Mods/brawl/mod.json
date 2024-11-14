@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.25",
+	"version" : "1.26",
  
     "changelog" :
     {
@@ -44,7 +44,8 @@
         "1.22"   : [ "value, rarity and revisitability tweaks in HotA's Ruins" ],
         "1.23"   : [ "added submod with PvP Balance creature banks to Brawl" ],
         "1.24"   : [ "smaller water banks in Brawl Objects submods core, HotA and Haven", "drastically increased treasure densities in Water Zones" ],
-        "1.25"   : [ "removed duplicate sound and animation files in HotA Objects submod" ]
+        "1.25"   : [ "removed duplicate sound and animation files in HotA Objects submod" ],
+        "1.26"   : [ "smaller versions of Dragon Utopias and Golden Dragon Utopia in Core and PvP Balance Objects submods" ]
     },
 
 	"compatibility" :

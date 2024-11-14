@@ -1,0 +1,42 @@
+{
+	"core:dragonUtopia" :
+	{
+		"types" : 
+		{
+			"dragonUtopia" : 
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"value" : 3500,
+					"rarity" : 60,
+					"zoneLimit" : 1
+				},
+				"levels":
+				[
+					{
+						"chance": 100,
+						"guards" :
+						[
+							{ "amount": 1, "type": "greenDragon", "upgradeChance": 30 },
+							{ "amount": 1, "type": "redDragon", "upgradeChance": 30 },
+							{ "amount": 1, "type": "boneDragon", "upgradeChance": 30 }
+						],
+						"reward" :
+						{
+							"resources":
+							{
+								"gold" : 3000
+							},
+							"artifacts": [
+								{ "class" : "TREASURE" },
+								{ "class" : "MINOR" },
+								{ "class" : "MAJOR" }
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
