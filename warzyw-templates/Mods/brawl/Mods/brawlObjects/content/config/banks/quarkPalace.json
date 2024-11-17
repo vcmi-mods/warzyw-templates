@@ -1,0 +1,39 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"quarkPalace" :
+			{
+				"resetDuration" : 4,
+				"rmg" :
+				{
+					"zoneLimit"	: 1,
+					"value" : 4000,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 100,
+						"guards":
+						[
+							{ "amount": 1, "type" : "invisibleMan" },
+							{ "amount": 1, "type" : "invisibleMan" },
+							{ "amount": 1, "type" : "invisibleMan" },
+							{ "amount": 1, "type" : "invisibleMan" },
+							{ "amount": 1, "type" : "invisibleMan" },
+							{ "amount": 1, "type" : "invisibleMan" },
+							{ "amount": 1, "type" : "invisibleMan" }
+						],
+						"reward" :
+						{
+							"resources": { "gold" : 1500 },
+							"creatures" : [ { "amount": 1, "type": "invisibleMan" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
