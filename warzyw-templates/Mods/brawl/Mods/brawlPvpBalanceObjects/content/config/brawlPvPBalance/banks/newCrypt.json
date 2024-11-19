@@ -1,9 +1,9 @@
 {
-	"core:crypt" :
+	"core:creatureBank" :
 	{
 		"types" :
 		{
-			"crypt" : {
+			"newCrypt" : {
 				"resetParameters" : {
 					"period" : 4,
 					"visitors" : true,

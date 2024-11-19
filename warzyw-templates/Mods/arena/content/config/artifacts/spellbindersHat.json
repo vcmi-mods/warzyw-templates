@@ -3,7 +3,7 @@
 	{
 		"text" :
 		{
-			"description" : "Gives the hero all level 5 spells. Such tramendous power comes with a price. Your opponent also gets all level 5 spells."
+			"description" : "Gives the hero all level 5 spells. Such tramendous power comes with a price. Your opponent gets all level 3 spells."
 		},
 		"bonuses" :
 		[
@@ -13,7 +13,7 @@
 			},
 			{
 				"type" : "SPELLS_OF_LEVEL",
-				"subtype" : "spellLevel5",
+				"subtype" : "spellLevel3",
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters": [ 
