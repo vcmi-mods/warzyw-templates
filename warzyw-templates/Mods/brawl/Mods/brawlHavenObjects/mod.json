@@ -30,7 +30,7 @@
     {
         "1.0"   : [ "made Pirate Keep smaller" ],
         "1.01"   : [ "made Sunken Temple smaller" ],
-        "1.02"   : [ "added Chinese translation", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
+        "1.02"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
     },
 
 	"compatibility" :

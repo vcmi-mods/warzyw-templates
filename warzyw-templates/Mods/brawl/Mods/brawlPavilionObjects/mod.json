@@ -28,7 +28,7 @@
     "changelog" :
     {
         "1.0"   : [ "made banks smaller" ],
-        "1.01"   : [ "added Chinese translation", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
+        "1.01"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
     },
 
 	"compatibility" :

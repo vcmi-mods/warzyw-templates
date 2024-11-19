@@ -54,7 +54,7 @@
         "1.07"   : [ "smaller versions of Shipwreck and Derlict Ship" ],
         "1.08"   : [ "smaller versions of Dragon Utopia" ],
         "1.09"   : [ "smaller Pyramid, uses Invisible Man from Invisible Man mod", "smaller Quark Palace from mod Invisible Man" ],
-        "1.10"   : [ "added Chinese translation", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
+        "1.10"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
     },
 
 	"compatibility" :

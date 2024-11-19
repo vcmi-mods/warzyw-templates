@@ -25,6 +25,7 @@
 	
 	"objects" :
 	[
+		"config/banks/nagaBank.json",
 		"config/banks/churchyard.json",
 		"config/banks/experimentalShop.json",
 		"config/banks/ivoryTower.json",
@@ -35,18 +36,21 @@
 		"config/banks/wolfRaiderPicket.json",
 		"config/banks/ruins.json",
 		"config/banks/templeOfTheSea.json",
-		"config/banks/beholderSanctuary.json"
+		"config/banks/beholderSanctuary.json",
+		"config/genericObjects/coverOfDarkness.json"
 	],
 	
 	"version" : "1.08",
 
  	"depends" : 
 	[
+		"warzyw-templates.brawl.brawlObjects",
 		"hota",
 		"hota.mapobjects",
 		"hota.neutralcreatures",
 		"hota.cove",
-		"hota.highlandsTerrain"
+		"hota.highlandsTerrain",
+		"hota.gamebalance"
 	],
 
     "changelog" :
@@ -59,7 +63,7 @@
         "1.05"   : [ "bumped Ruins value, lowered rarity and zone limit and made them revisitable" ],
         "1.06"   : [ "smaller versions of water banks: Temple Of The Sea and Beholder Sanctuary" ],
         "1.07"   : [ "the Pirate Copy creature used in the maxi Pirate Cavern now reuses sounds and animations from HotA mod instead copying them" ],
-        "1.08"   : [ "added Chinese translation", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
+        "1.08"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility", "added dependency on main HotA mod", "repeated some object changes from mod brawlObjects to achieve hota.gameBalance mod compatibility, namely Cover of Darkness and Naga Bank" ]
     },
 
 	"compatibility" :
