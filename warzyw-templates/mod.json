@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.27",
+	"version" : "1.28",
  
     "changelog" :
     {
@@ -44,7 +44,8 @@
         "1.24"   : [ "Fixed ImpCache typo and Water Temple" ],
         "1.25"   : [ "Chinese translation by Ziyue" ],
         "1.26"   : [ "Brawl banks updated to vcmi 1.6 syntax by kdmcser" ],
-        "1.27"   : [ "ported recent changes from vcmi 1.4 branch", "nerfed Spellbinder's Hat nerf in Arena", "automatically enabled Arena submod, with tournament in mind", "added some Signs, another Observatory and PL translation to Arena", "added submod with PvP Balance creature banks to Brawl", "smaller water banks in Brawl submods", "increased treasure densities in Water Zones, done in Brawl submod, repeated in its PvP Balance Objects submod", "removed duplicate sound and animation files in HotA Objects submod of Brawl", "smaller Utopias added to PvP balance and Core Objects submods of Brawl", "smaller Pyramid and Quark Palace added to Core Objects submod of Brawl, uses Invisible Man mod", "updated min compatibility", "added dependency on main HotA mod to HotA Objects submod of Brawl", "HotA Game Balance submod compatibility in HotA Objects submod" ]
+        "1.27"   : [ "ported recent Arena changes from vcmi 1.4 branch", "nerfed Spellbinder's Hat nerf in Arena", "automatically enabled Arena submod, with tournament in mind", "added some Signs, another Observatory and PL translation to Arena" ],
+        "1.28"   : [ "ported recent changes from vcmi 1.4 branch", "added submod with PvP Balance creature banks to Brawl", "smaller water banks in Brawl submods", "increased treasure densities in Water Zones, done in Brawl submod, repeated in its PvP Balance Objects submod", "removed duplicate sound and animation files in HotA Objects submod of Brawl", "smaller Utopias added to PvP balance and Core Objects submods of Brawl", "smaller Pyramid and Quark Palace added to Core Objects submod of Brawl, uses Invisible Man mod", "updated min compatibility", "added dependency on main HotA mod to HotA Objects submod of Brawl", "HotA Game Balance submod compatibility in HotA Objects submod" ]
     },
 
 	"compatibility" :
