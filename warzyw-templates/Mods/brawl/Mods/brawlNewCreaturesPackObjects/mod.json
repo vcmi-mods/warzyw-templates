@@ -1,0 +1,45 @@
+{
+    "name" : "brawlNewCreaturesPackObjects",
+
+    "description" : "Modified NewCreaturesPack mod and core objects used by template Brawl, should be better suited for short games on small maps:<br>Pyramid: 8 Diamond Golems and 2x 2 Invisible Men, reward unchanged,<br>Quark Palace: 7x 1 Invisible Man, reward: 1 Invisible Man, 1500 Gold.<br>All creatures in each bank that have upgrades, both guards and rewards have a chance of being upgraded.",
+
+    "author" : "Warzyw647",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "warzyw647 on heroes-themed Discords",
+
+    "modType" : "Objects",
+	
+	"objects" :
+	[
+		"config/banks/pyramid.json",
+		"config/banks/quarkPalace.json"
+	],
+	
+	"version" : "1.0",
+ 
+ 	"depends" : 
+	[
+		"new-monsters-pack",
+		"new-monsters-pack.invisible-man"
+	],
+	
+    "changelog" :
+    {
+        "1.0"   : [ "moved Pyramid and Quark Palace to a separate submod from brawlObjects", "smaller Pyramid, uses Invisible Man from Invisible Man mod", "smaller Quark Palace from mod Invisible Man" ]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+	
+    "keepDisabled" : true,
+    "chinese" : {
+		"name" : "TODO",
+    	"description" : "TODO"
+    }
+}

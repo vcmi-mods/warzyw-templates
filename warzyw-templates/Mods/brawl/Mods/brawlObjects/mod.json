@@ -1,7 +1,7 @@
 {
     "name" : "brawlObjects",
 
-    "description" : "Modified objects used by template Brawl, should be better suited for short games on small maps:<br>disabled Sanctuaries, external  Taverns and Stables,<br>disabled Redwood Observatories, enabled Covers of Darkness in their place,<br>Cons have guards from 1-5 to 4-8 griffins, rewards 2-5 Monks, each stack can be upgraded, revisitable after 4 days,<br>Hives have guards from 1-5 to 4-8 Lizardmen, reward 4-7 Serpent Flies, also revisitable  after 4 days and also each stack can be upgraded,<br>also decreased the sizes and rewards of other banks and made them revisitable after 4 days:<br>Cyclop Stockpile: 4x 3-6 Orcs and 1 Cyclop, reward: 1-4 all resources and 2-3 Ogres,<br>Dwarven Treasury: 4x 3-9 dwarfs, 1-2 Pegasi, reward: 1000-2500 Gold, 2-5 Crystals, 1-2 Pegasi or 1 Dendroid/Gold Golem/Diamod Golem,<br>Imp Cache: 5x 10-20 Imps, reward: 2-4 Mercury, 500-1000 Gold, 4 Gogs/3 Hell Hounds/2 Demons/1 Pit Fiend,<br>Medusa Stores: 9-14 Medusas total in 5 stacks, reward: 3-4 Sulfur, 1000-1600 Gold, 2-3 Evil Eyes or Medusas,<br>Naga Bank: 4x 3-6 Gargoyles and 1 Naga, reward: 2-4 Gems, 600-1200 Gold, 5 Dwarfs/5 Gargoyles/2 Medusas/1 Naga,<br>Crypt: 3x8/2x10/10/10 Skeletons, 2x5/2x5/5/5 Walking Deads, 0/0/3/3 Wights, 0/0/1/2 Vampires, rewards: Treasure class Artifact, 799-999 Gold, 0-2 Wights,<br>Derelict Ship: 5x 3/4/5 Water Elementals, reward: 2000 Gold/2500 Gold and Treasure Artifact/3000 Gold and Minor Artifact,<br>Shipwreck: 5x 1-4 Wights, reward: 1-4 Treasure Artifacts,<br>Dragon Utopia: 1 Red Dragon, 1 Green Dragon, 1 Bone Dragon, reward: Treasure, Minor and Major Artifacts and 3000 Gold,<br>Pyramid: 8 Diamond Golems and 2x 2 Invisible Men, reward unchanged,<br>Quark Palace: 7x 1 Invisible Man, reward: 1 Invisible Man, 1500 Gold.<br>All creatures in each bank that have upgrades, both guards and rewards have a chance of being upgraded.",
+    "description" : "Modified objects used by template Brawl, should be better suited for short games on small maps:<br>disabled Sanctuaries, external  Taverns and Stables,<br>disabled Redwood Observatories, enabled Covers of Darkness in their place,<br>Cons have guards from 1-5 to 4-8 griffins, rewards 2-5 Monks, each stack can be upgraded, revisitable after 4 days,<br>Hives have guards from 1-5 to 4-8 Lizardmen, reward 4-7 Serpent Flies, also revisitable  after 4 days and also each stack can be upgraded,<br>also decreased the sizes and rewards of other banks and made them revisitable after 4 days:<br>Cyclop Stockpile: 4x 3-6 Orcs and 1 Cyclop, reward: 1-4 all resources and 2-3 Ogres,<br>Dwarven Treasury: 4x 3-9 dwarfs, 1-2 Pegasi, reward: 1000-2500 Gold, 2-5 Crystals, 1-2 Pegasi or 1 Dendroid/Gold Golem/Diamod Golem,<br>Imp Cache: 5x 10-20 Imps, reward: 2-4 Mercury, 500-1000 Gold, 4 Gogs/3 Hell Hounds/2 Demons/1 Pit Fiend,<br>Medusa Stores: 9-14 Medusas total in 5 stacks, reward: 3-4 Sulfur, 1000-1600 Gold, 2-3 Evil Eyes or Medusas,<br>Naga Bank: 4x 3-6 Gargoyles and 1 Naga, reward: 2-4 Gems, 600-1200 Gold, 5 Dwarfs/5 Gargoyles/2 Medusas/1 Naga,<br>Crypt: 3x8/2x10/10/10 Skeletons, 2x5/2x5/5/5 Walking Deads, 0/0/3/3 Wights, 0/0/1/2 Vampires, rewards: Treasure class Artifact, 799-999 Gold, 0-2 Wights,<br>Derelict Ship: 5x 3/4/5 Water Elementals, reward: 2000 Gold/2500 Gold and Treasure Artifact/3000 Gold and Minor Artifact,<br>Shipwreck: 5x 1-4 Wights, reward: 1-4 Treasure Artifacts,<br>Dragon Utopia: 1 Red Dragon, 1 Green Dragon, 1 Bone Dragon, reward: Treasure, Minor and Major Artifacts and 3000 Gold,<br>All creatures in each bank that have upgrades, both guards and rewards have a chance of being upgraded.",
 
     "author" : "Warzyw647",
 
@@ -26,8 +26,6 @@
 		"config/banks/shipwreck.json",
 		"config/banks/derelictShip.json",
 		"config/banks/dragonUtopia.json",
-		"config/banks/pyramid.json",
-		"config/banks/quarkPalace.json",
 		"config/genericObjects/coverOfDarkness.json",
 		"config/genericObjects/redwoodObservatory.json",
 		"config/genericObjects/sanctuary.json",
@@ -36,11 +34,6 @@
 	],
 	
 	"version" : "1.10",
- 
- 	"depends" : 
-	[
-		"invisible-man"
-	],
 	
     "changelog" :
     {
@@ -54,7 +47,7 @@
         "1.07"   : [ "smaller versions of Shipwreck and Derlict Ship" ],
         "1.08"   : [ "smaller versions of Dragon Utopia" ],
         "1.09"   : [ "smaller Pyramid, uses Invisible Man from Invisible Man mod", "smaller Quark Palace from mod Invisible Man" ],
-        "1.10"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
+        "1.10"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "moved Pyramid changes and Quark Palace to brawlNewCreaturesPackObjects submod", "updated min compatibility" ]
     },
 
 	"compatibility" :
