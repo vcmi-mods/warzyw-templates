@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.27",
+	"version" : "1.28",
  
     "changelog" :
     {
@@ -44,7 +44,8 @@
         "1.24"   : [ "Fixed ImpCache typo and Water Temple" ],
         "1.25"   : [ "Chinese translation by Ziyue" ],
         "1.26"   : [ "Brawl banks updated to vcmi 1.6 syntax by kdmcser" ],
-        "1.27"   : [ "ported last vcmi 1.4 changes in arena to vcmi 1.6", "nerfed Spellbinder's Hat nerf in Arena", "automatically enabled Arena submod, with tournament in mind", "added some Signs, another Observatory and PL translation to Arena" ]
+        "1.27"   : [ "ported last vcmi 1.4 changes in arena to vcmi 1.6", "nerfed Spellbinder's Hat nerf in Arena", "automatically enabled Arena submod, with tournament in mind", "added some Signs, another Observatory and PL translation to Arena" ],
+        "1.28"   : [ "Brawl submod disabled by default" ]
     },
 
 	"compatibility" :
