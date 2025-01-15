@@ -32,18 +32,15 @@
 							{ "amount": 1, "type": "redDragon", "upgradeChance": 30 },
 							{ "amount": 1, "type": "boneDragon", "upgradeChance": 30 }
 						],
-						"reward" :
+						"resources":
 						{
-							"resources":
-							{
-								"gold" : 3000
-							},
-							"artifacts": [
-								{ "class" : "TREASURE" },
-								{ "class" : "MINOR" },
-								{ "class" : "MAJOR" }
-							]
-						}
+							"gold" : 3000
+						},
+						"artifacts": [
+							{ "class" : "TREASURE" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" }
+						]
 					}
 				]
 			}

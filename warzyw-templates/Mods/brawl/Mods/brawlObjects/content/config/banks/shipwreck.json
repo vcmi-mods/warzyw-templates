@@ -30,10 +30,7 @@
 							{ "amount": 1, "type": "wight", "upgradeChance": 50 },
 							{ "amount": 1, "type": "wight", "upgradeChance": 50 }
 						],
-						"reward" :
-						{
-							"artifacts": [ { "class" : "TREASURE" } ]
-						}
+						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
 						"message" : 34,
@@ -45,10 +42,7 @@
 							{ "amount": 2, "type": "wight", "upgradeChance": 50 },
 							{ "amount": 2, "type": "wight", "upgradeChance": 50 }
 						],
-						"reward" :
-						{
-							"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
-						}
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
 					},
 					{
 						"message" : 34,
@@ -60,10 +54,7 @@
 							{ "amount": 3, "type": "wight", "upgradeChance": 50 },
 							{ "amount": 3, "type": "wight", "upgradeChance": 50 }
 						],
-						"reward" :
-						{
-							"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
-						}
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
 					},
 					{
 						"message" : 34,
@@ -75,10 +66,7 @@
 							{ "amount": 4, "type": "wight", "upgradeChance": 50 },
 							{ "amount": 4, "type": "wight", "upgradeChance": 50 }
 						],
-						"reward" :
-						{
-							"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
-						}
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
 					}
 				]
 			}

@@ -34,12 +34,9 @@
 							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources": 
 						{
-							"resources": 
-							{
-								"gold" : 2000
-							}
+							"gold" : 2000
 						}
 					},
 					{
@@ -52,15 +49,12 @@
 							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources": 
 						{
-							"resources": 
-							{
-								"gold" : 2500
-							},
-							
-							"artifacts": [ { "class" : "TREASURE" } ]
-						}
+							"gold" : 2500
+						},
+						
+						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
 						"message" : 43,
@@ -72,15 +66,12 @@
 							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources": 
 						{
-							"resources": 
-							{
-								"gold" : 3000
-							},
-							
-							"artifacts": [ { "class" : "MINOR" } ]
-						}
+							"gold" : 3000
+						},
+						
+						"artifacts": [ { "class" : "MINOR" } ]
 					}
 				]
 			}
