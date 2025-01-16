@@ -24,6 +24,7 @@
 
  	"depends" : 
 	[
+		"warzyw-templates.brawl.brawlObjects",
 		"abyss-town",
 		"abyss-town.Changed banks"
 	],
