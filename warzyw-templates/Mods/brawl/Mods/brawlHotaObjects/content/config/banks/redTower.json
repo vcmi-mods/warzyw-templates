@@ -14,7 +14,8 @@
 					"value"		: 2000,
 					"rarity"	: 100
 				},
-				// leave the default messages alone
+				"onGuardedMessage" : "The captured Air Elementals will serve you gladly. Would you like to fight the guards?",
+				"onVisitedMessage" : "Air Elementals were once kept captive here, however now the place is abandoned.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",

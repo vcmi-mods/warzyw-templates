@@ -25,14 +25,11 @@
 							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
 							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources": 
 						{
-							"resources": 
-							{
-								"gold" : 1500
-							},
-							"artifacts": [ { "class" : "MINOR" } ]
-						}
+							"gold" : 1500
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
 					},
 					{
 						"message" : 34,
@@ -44,14 +41,11 @@
 							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
 							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources": 
 						{
-							"resources": 
-							{
-								"gold" : 2500
-							},
-							"artifacts": [ { "class" : "MINOR" } ]
-						}
+							"gold" : 2500
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
 					},
 					{
 						"message" : 34,
@@ -63,14 +57,11 @@
 							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
 							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources": 
 						{
-							"resources": 
-							{
-								"gold" : 3500
-							},
-							"artifacts": [ { "class" : "MINOR" } ]
-						}
+							"gold" : 3500
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
 					}
 				]
 			}

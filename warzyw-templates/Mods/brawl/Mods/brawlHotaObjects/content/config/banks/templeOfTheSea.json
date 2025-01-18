@@ -27,13 +27,11 @@
 							{ "amount": 1, "type": "seaserpent", "upgradeChance": 50 },
 							{ "amount": 1, "type": "hydra", "upgradeChance": 50 }
 						],
-						"reward" : {
-							"resources":
-							{
-								"gold" : 5000
-							},
-							"artifacts": [ { "class" : "MAJOR" }, { "class" : "MAJOR" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
-						}
+						"resources":
+						{
+							"gold" : 5000
+						},
+						"artifacts": [ { "class" : "MAJOR" }, { "class" : "MAJOR" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
 					},
 					{
 						"message" : 34,
@@ -45,13 +43,11 @@
 							{ "amount": 1, "type": "hydra", "upgradeChance": 50 },
 							{ "amount": 1, "type": "seaserpent", "upgradeChance": 50 }
 						],
-						"reward" : {
-							"resources":
-							{
-								"gold" : 5000
-							},
-							"artifacts": [ { "class" : "RELIC" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
-						}
+						"resources":
+						{
+							"gold" : 5000
+						},
+						"artifacts": [ { "class" : "RELIC" }, { "class" : "MINOR" }, { "class" : "TREASURE" } ]
 					}
 				]
 			}
