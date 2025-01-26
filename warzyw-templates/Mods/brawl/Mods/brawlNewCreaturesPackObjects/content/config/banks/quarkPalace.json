@@ -36,11 +36,8 @@
 							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 },
 							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 }
 						],
-						"reward" :
-						{
-							"resources": { "gold" : 1500 },
-							"creatures" : [ { "amount": 1, "type": "invisibleMan", "upgradeChance": 50 } ]
-						}
+						"resources": { "gold" : 1500 },
+						"creatures" : [ { "amount": 1, "type": "invisibleMan", "upgradeChance": 50 } ]
 					}
 				]
 			}
