@@ -33,25 +33,23 @@
 							{ "amount": 1, "type": "boneDragon", "upgradeChance": 50 },
 							{ "amount": 1, "type": "mdtDrakeGolem", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources":
 						{
-							"resources":
-							{
-								"gold" : 4000,
-								"wood" : 6,
-								"ore" : 6,
-								"crystal" : 6,
-								"mercury" : 6,
-								"sulfur" : 6,
-								"gems" : 6
-							},
-							"artifacts": [
-								{ "class" : "TREASURE" },
-								{ "class" : "MINOR" },
-								{ "class" : "MAJOR" },
-								{ "class" : "RELIC" }
-							]
-						}
+							"gold" : 4000,
+							"wood" : 6,
+							"ore" : 6,
+							"crystal" : 6,
+							"mercury" : 6,
+							"sulfur" : 6,
+							"gems" : 6
+						},
+						"artifacts": [
+							{ "class" : "TREASURE" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" }
+						],
+						"bonuses" : [ { "type" : "SPELL", "subtype" : "dimensionDoor",  "val" : 0, "duration" : "N_DAYS", "turns" : 1} ]
 					},
 					{
 						"message" : 34,
@@ -60,25 +58,23 @@
 						[
 							{ "amount": 1, "type": "fairieDragon", "upgradeChance": 50 }
 						],
-						"reward" :
+						"resources":
 						{
-							"resources":
-							{
-								"gold" : 4000,
-								"wood" : 6,
-								"ore" : 6,
-								"crystal" : 6,
-								"mercury" : 6,
-								"sulfur" : 6,
-								"gems" : 6
-							},
-							"artifacts": [
-								{ "class" : "TREASURE" },
-								{ "class" : "MINOR" },
-								{ "class" : "MAJOR" },
-								{ "class" : "RELIC" }
-							]
-						}
+							"gold" : 4000,
+							"wood" : 6,
+							"ore" : 6,
+							"crystal" : 6,
+							"mercury" : 6,
+							"sulfur" : 6,
+							"gems" : 6
+						},
+						"artifacts": [
+							{ "class" : "TREASURE" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" }
+						],
+						"bonuses" : [ { "type" : "SPELL", "subtype" : "dimensionDoor",  "val" : 0, "duration" : "N_DAYS", "turns" : 1} ]
 					}
 				]
 			}
