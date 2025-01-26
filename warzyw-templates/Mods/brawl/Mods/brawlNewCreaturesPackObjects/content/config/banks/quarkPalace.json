@@ -1,0 +1,46 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"quarkPalace" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit"	: 1,
+					"value" : 4000,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "invisibleMan", "upgradeChance": 50 }
+						],
+						"resources": { "gold" : 1500 },
+						"creatures" : [ { "amount": 1, "type": "invisibleMan", "upgradeChance": 50 } ]
+					}
+				]
+			}
+		}
+	}
+}

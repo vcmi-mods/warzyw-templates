@@ -16,15 +16,14 @@
 					"value" : 3000,
 					"rarity" : 50
 				},
-				"onGuardedMessage" : 32,
-				"onVisitedMessage" : 33,
+				// leave the default messages alone
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
 				"rewards": 
 				[
 					{
-						"message" : 34,
+						"message" : "The Power Liches crumble to dust, and from the depths of the Outpost of Souls, Demiliches rise, pledging their dark power to your ranks.",
 						"appearChance":  { "min" : 0, "max" : 80 },
 						"guards":
 						[
@@ -39,7 +38,7 @@
 						"creatures": [ { "amount": 1, "type": "mdtDemilich", "upgradeChance": 50 } ] // in case they ever get an upgrade
 					},
 					{
-						"message" : 34,
+						"message" : "The Power Liches crumble to dust, and from the depths of the Outpost of Souls, Demiliches rise, pledging their dark power to your ranks.",
 						"appearChance":  { "min" : 80, "max" : 100 },
 						"guards":
 						[

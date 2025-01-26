@@ -14,8 +14,7 @@
 					"value"		: 2500,
 					"rarity"	: 100
 				},
-				"onGuardedMessage" : 32,
-				"onVisitedMessage" : 33,
+				// leave the default message alone
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",

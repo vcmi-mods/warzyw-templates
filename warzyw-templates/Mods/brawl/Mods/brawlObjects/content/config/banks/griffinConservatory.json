@@ -16,10 +16,11 @@
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
-				"guardsLayout" : "creatureBankNarrow",
+				"guardsLayout" : "creatureBankWide",
 				"rewards": [
 					{
 						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 1, "type": "griffin", "upgradeChance": 50 },
 							{ "amount": 2, "type": "griffin", "upgradeChance": 50 },

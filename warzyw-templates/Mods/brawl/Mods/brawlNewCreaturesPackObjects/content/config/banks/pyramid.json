@@ -1,0 +1,75 @@
+{
+	"core:pyramid" :
+	{
+		"types" :
+		{
+			"pyramid" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit"	: 1,
+					"value" : 4500,
+					"rarity"	: 20
+				},
+				"variables" : {
+					"spell" : {
+						"gainedSpell" : {
+							"level": 5
+						}
+					}
+				},
+				"onGuardedMessage" : 105,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"onVisited" : [
+					{
+						"message" : 107,
+						"bonuses" : [ { "type" : "LUCK", "val" : -2, "duration" : "ONE_BATTLE", "description" : 70 } ]
+					}
+				],
+				"guardsLayout" : "default",
+				"rewards":
+				[
+					{
+						"limiter" : {
+							"canLearnSpells" : [
+								"@gainedSpell"
+							]
+						},
+						"spells" : [
+							"@gainedSpell"
+						],
+						"message" : [ 106, "{%s}." ], // Upon defeating monsters, you learn new spell
+						"appearChance":  { "min" : 0, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 8, "type": "diamondGolem", "upgradeChance": 50 },
+							{ "amount": 2, "type": "invisibleMan", "upgradeChance": 50 },
+							{ "amount": 2, "type": "invisibleMan", "upgradeChance": 50 }
+						]
+					}
+				],
+				"onEmpty" : [
+					{
+						"limiter" : {
+							"artifacts" : [
+								{
+									"type" : "spellBook"
+								}
+							]
+						},
+						"message" : [ 106, "{%s}. ", 108 ] // No Wisdom
+					},
+					{
+						"message" : [ 106, "{%s}. ", 109 ] // No spellbook
+					}
+				]
+			}
+		}
+	}
+}

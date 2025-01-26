@@ -24,7 +24,7 @@
 				"rewards": 
 				[
 					{
-						"message" : 34,
+						"message" : "With the Pikemen defeated, Swordsmen step forward, pledging their strength to your ranks.",
 						"appearChance":  { "min" : 0, "max" : 30 },
 						"guards":
 						[
@@ -37,7 +37,7 @@
 						"creatures": [ { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 } ]
 					},
 					{
-						"message" : 34,
+						"message" : "With the Pikemen defeated, Swordsmen step forward, pledging their strength to your ranks.",
 						"appearChance":  { "min" : 30, "max" : 60 },
 						"guards":
 						[
@@ -50,7 +50,7 @@
 						"creatures": [ { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 } ]
 					},
 					{
-						"message" : 34,
+						"message" : "With the Pikemen defeated, Swordsmen step forward, pledging their strength to your ranks.",
 						"appearChance":  { "min" : 60, "max" : 80 },
 						"guards":
 						[
@@ -63,7 +63,7 @@
 						"creatures": [ { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 }, { "amount": 1, "type": "swordsman", "upgradeChance": 50 } ]
 					},
 					{
-						"message" : 34,
+						"message" : "With the Pikemen defeated, a Templar steps forward, pledging his strength to your ranks.",
 						"appearChance":  { "min" : 80, "max" : 100 },
 						"guards":
 						[

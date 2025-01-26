@@ -20,7 +20,7 @@
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
-				"guardsLayout" : "creatureBankNarrow",
+				"guardsLayout" : "creatureBankWide",
 				"rewards": 
 				[
 					{

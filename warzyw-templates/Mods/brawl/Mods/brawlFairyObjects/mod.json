@@ -15,10 +15,11 @@
 	
 	"objects" :
 	[
-		"config/banks/ftFairiesBank.json"
+		"config/banks/ftFairiesBank.json",
+		"config/banks/evilTreeofKnowledge.json"
 	],
 	
-	"version" : "1.0",
+	"version" : "1.01",
 
  	"depends" : 
 	[
@@ -27,12 +28,13 @@
 
     "changelog" :
     {
-        "1.0"   : [ "made banks smaller" ]
+        "1.0"   : [ "made banks smaller" ],
+        "1.01"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility", "added smaller version of Evil Tree of Knowledge" ]
     },
 
 	"compatibility" :
 	{
-		"min" : "1.5.6"
+		"min" : "1.6.0"
 	},
 	
     "keepDisabled" : true,

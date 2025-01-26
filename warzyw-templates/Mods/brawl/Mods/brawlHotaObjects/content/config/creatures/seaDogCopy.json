@@ -67,11 +67,11 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "creatures/iconsLarge/seadogcopy.png",
-			"iconSmall" : "creatures/iconsSmall/seadogcopy.png",
-			"map" : "creatures/adventureMap/seadogcopy.def",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/seadog.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/seadog.png",
+			"map" : "hota/cove/creatures/adventureMap/seadog.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "creatures/battle/seadogcopy.def",
+			"animation" : "hota/cove/creatures/battle/seadog.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
@@ -79,7 +79,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile" : "creatures/battle/projectile/piratecopy.def",
+				"projectile" : "hota/cove/creatures/battle/projectile/pirate.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
 				"offset" : {
@@ -93,12 +93,12 @@
 			}
 		},
 		"sound" : {
-			"attack" : "creatures/piratecopy/PIRTATTK.wav",
-			"defend" : "creatures/piratecopy/PIRTDFND.wav",
-			"killed" : "creatures/piratecopy/PIRTKILL.wav",
-			"move" : "creatures/piratecopy/PIRTMOVE.wav",
-			"shoot" : "creatures/piratecopy/PIRTSHOT.wav",
-			"wince" : "creatures/piratecopy/PIRTWNCE.wav"
+			"attack" : "hota/cove/creatures/pirate/PIRTATTK.wav",
+			"defend" : "hota/cove/creatures/pirate/PIRTDFND.wav",
+			"killed" : "hota/cove/creatures/pirate/PIRTKILL.wav",
+			"move" : "hota/cove/creatures/pirate/PIRTMOVE.wav",
+			"shoot" : "hota/cove/creatures/pirate/PIRTSHOT.wav",
+			"wince" : "hota/cove/creatures/pirate/PIRTWNCE.wav"
 		}
 	}
 }

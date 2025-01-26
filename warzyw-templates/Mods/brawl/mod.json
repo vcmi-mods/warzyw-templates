@@ -1,7 +1,7 @@
 {
     "name" : "brawl",
 
-    "description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl,<br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.",
+    "description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl,<br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.<br>Densities of Treasures in Water Zones up to 5/10/20 in the intervals with high/intermediate/low treasure values. In case someone wants to play with Water, especially with Water-themed mods.",
 
     "author" : "Warzyw647",
 
@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.24",
+	"version" : "1.25",
  
     "changelog" :
     {
@@ -43,12 +43,13 @@
         "1.21"   : [ "added smaller versions of the Tides of War's Bone Pillar, Outpost of Souls, Phantom Ship, Scriptorium, Seminarium and Sorceress Castle" ],
         "1.22"   : [ "value, rarity and revisitability tweaks in HotA's Ruins" ],
         "1.23"   : [ "Fixed ImpCache typo and Water Temple" ],
-        "1.24"   : [ "banks updated to vcmi 1.6 syntax by kdmcser" ]
+        "1.24"   : [ "banks updated to vcmi 1.6 syntax by kdmcser" ],
+        "1.25"   : [ "ported recent changes from vcmi 1.4 branch", "smaller water banks in Brawl Objects submods core, HotA and Haven", "drastically increased treasure densities in Water Zones", "removed duplicate sound and animation files in HotA Objects submod", "smaller versions of Dragon Utopias in Core Objects submod", "smaller version of Pyramid and Quark Palace in Core Objects submod, uses Invisible Men from Invisible Man mod, then moved to a separate submod" , "Chinese translation by Ziyue", "updated min compatibility", "added dependency on main HotA mod to HotA Objects submod", "HotA Game Balance submod compatibility in HotA Objects submod" ]
     },
 
 	"compatibility" :
 	{
-		"min" : "1.5.6"
+		"min" : "1.6.0"
 	},
 	
     "keepDisabled" : false,

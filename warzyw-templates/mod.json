@@ -6,9 +6,9 @@
 	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
 	"contact" : "warzyw647 on heroes-themed Discords",
 	"modType" : "Templates",
-	"version" : "1.28",
+	"version" : "1.29",
 	"compatibility" : {
-		"min" : "1.5.6"
+		"min" : "1.6.0"
 	},
 	"changelog" : {
 		"1.0"    : [ "initial release", "Brawl ported to vcmi", "Grond ported to vcmi"],
@@ -39,7 +39,8 @@
 		"1.25"   : [ "Chinese translation by Ziyue" ],
 		"1.26"   : [ "Brawl banks updated to vcmi 1.6 syntax by kdmcser" ],
 		"1.27"   : [ "ported last vcmi 1.4 changes in arena to vcmi 1.6", "nerfed Spellbinder's Hat nerf in Arena", "automatically enabled Arena submod, with tournament in mind", "added some Signs, another Observatory and PL translation to Arena" ],
-		"1.28"   : [ "Disabled Arena submod by default" ]
+		"1.28"   : [ "Disabled Arena submod by default" ],
+		"1.29"   : [ "ported recent changes from vcmi 1.4 branch", "smaller water banks in Brawl submods", "removed duplicate sound and animation files in HotA Objects submod of Brawl", "smaller Utopia added to Core Objects submod of Brawl", "smaller Pyramid and Quark Palace added to Core Objects submod of Brawl, uses Invisible Man mod, then moved to a separate submod", "updated min compatibility", "added dependency on main HotA mod to HotA Objects submod of Brawl", "HotA Game Balance submod compatibility in HotA Objects submod" ]
 	},
 	"chinese" : {
 		"name" : "warzyw地图模板集",

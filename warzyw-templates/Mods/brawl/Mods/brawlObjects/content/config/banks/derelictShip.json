@@ -1,40 +1,32 @@
 {
-	"core:creatureBank" :
+	"core:derelictShip" :
 	{
 		"types" :
 		{
-			"redTower" : {
+			"derelictShip" : {
 				"resetParameters" : {
 					"period" : 4,
 					"visitors" : true,
 					"rewards" : true
 				},
-				"rmg" : {
-					"zoneLimit"	: 2,
-					"value"		: 2000,
+				"rmg" :
+				{
 					"rarity"	: 100
 				},
-				"onGuardedMessage" : "The captured Air Elementals will serve you gladly. Would you like to fight the guards?",
-				"onVisitedMessage" : "Air Elementals were once kept captive here, however now the place is abandoned.",
+				"onGuardedMessage" : 41,
+				"onVisited" : [
+					{
+						"message" : 42, // Such a despicable act reduces your army's morale.
+						"bonuses" : [ { "type" : "MORALE", "val" : -1, "duration" : "ONE_BATTLE", "description" : 101 } ]
+					}
+				],
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
 				"rewards": [
 					{
-						"message" : 34,
+						"message" : 43,
 						"appearChance":  { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 2, "type": "waterElemental", "upgradeChance": 50 },
-							{ "amount": 2, "type": "waterElemental", "upgradeChance": 50 },
-							{ "amount": 2, "type": "waterElemental", "upgradeChance": 50 },
-							{ "amount": 2, "type": "waterElemental", "upgradeChance": 50 },
-							{ "amount": 2, "type": "waterElemental", "upgradeChance": 50 }
-						],
-						"creatures": [ { "amount": 3, "type": "airElemental", "upgradeChance": 50 } ]
-					},
-					{
-						"message" : 34,
-						"appearChance":  { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
@@ -42,11 +34,14 @@
 							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 }
 						],
-						"creatures": [ { "amount": 4, "type": "airElemental", "upgradeChance": 50 } ]
+						"resources": 
+						{
+							"gold" : 2000
+						}
 					},
 					{
-						"message" : 34,
-						"appearChance":  { "min" : 60, "max" : 90 },
+						"message" : 43,
+						"appearChance":  { "min" : 30, "max" : 70 },
 						"guards": [
 							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
@@ -54,11 +49,16 @@
 							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 }
 						],
-						"creatures": [ { "amount": 5, "type": "airElemental", "upgradeChance": 50 } ]
+						"resources": 
+						{
+							"gold" : 2500
+						},
+						
+						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
-						"message" : 34,
-						"appearChance":  { "min" : 90, "max" : 100 },
+						"message" : 43,
+						"appearChance":  { "min" : 70, "max" : 100 },
 						"guards": [
 							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
@@ -66,7 +66,12 @@
 							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
 							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 }
 						],
-						"creatures": [ { "amount": 6, "type": "airElemental", "upgradeChance": 50 } ]
+						"resources": 
+						{
+							"gold" : 3000
+						},
+						
+						"artifacts": [ { "class" : "MINOR" } ]
 					}
 				]
 			}

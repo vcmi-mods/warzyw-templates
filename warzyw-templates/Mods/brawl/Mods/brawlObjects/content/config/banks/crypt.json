@@ -14,14 +14,19 @@
 					"value"		: 1000,
 					"rarity"	: 100
 				},
-				"onGuardedMessage" : 32,
-				"onVisitedMessage" : 33,
+				"onGuardedMessage" : 119, // Do you want to search the graves?
+				"onVisited" : [
+					{
+						"message" : 120, // Such a despicable act reduces your army's morale.
+						"bonuses" : [ { "type" : "MORALE", "val" : -1, "duration" : "ONE_BATTLE" } ]
+					}
+				],
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
 				"rewards": [
 					{
-						"message" : 34,
+						"message" : 121,
 						"appearChance":  { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 8, "type": "skeleton", "upgradeChance": 50 },
@@ -36,7 +41,7 @@
 						}
 					},
 					{
-						"message" : 34,
+						"message" : 121,
 						"appearChance":  { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 10, "type": "skeleton", "upgradeChance": 50 },
@@ -51,7 +56,7 @@
 						}
 					},
 					{
-						"message" : 34,
+						"message" : 121,
 						"appearChance":  { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 10, "type": "skeleton", "upgradeChance": 50 },
@@ -67,7 +72,7 @@
 						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
-						"message" : 34,
+						"message" : 121,
 						"appearChance":  { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 10, "type": "skeleton", "upgradeChance": 50 },

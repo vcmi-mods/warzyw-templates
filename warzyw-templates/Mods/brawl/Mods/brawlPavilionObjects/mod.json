@@ -18,7 +18,7 @@
 		"config/banks/sphinxZiggurat.json"
 	],
 	
-	"version" : "1.0",
+	"version" : "1.01",
 
  	"depends" : 
 	[
@@ -27,12 +27,13 @@
 
     "changelog" :
     {
-        "1.0"   : [ "made banks smaller" ]
+        "1.0"   : [ "made banks smaller" ],
+        "1.01"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility" ]
     },
 
 	"compatibility" :
 	{
-		"min" : "1.5.6"
+		"min" : "1.6.0"
 	},
 	
     "keepDisabled" : true,

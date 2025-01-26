@@ -25,7 +25,7 @@
 				"rewards": 
 				[
 					{
-						"message" : 34,
+						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
 						"appearChance":  { "min" : 0, "max" : 50 },
 						"guards":
 						[
@@ -44,7 +44,7 @@
 						"creatures": [ { "amount": 2, "type": "mdtGhost", "upgradeChance": 50 } ] // in case they ever get an upgrade
 					},
 					{
-						"message" : 34,
+						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
 						"appearChance":  { "min" : 50, "max" : 80 },
 						"guards":
 						[
@@ -63,7 +63,7 @@
 						"creatures": [ { "amount": 3, "type": "mdtGhost", "upgradeChance": 50 } ]
 					},
 					{
-						"message" : 34,
+						"message" : "The restless spirits are subdued, and from the Bone Pillar, new Ghosts emerge, bound to serve your command.",
 						"appearChance":  { "min" : 80, "max" : 100 },
 						"guards":
 						[
