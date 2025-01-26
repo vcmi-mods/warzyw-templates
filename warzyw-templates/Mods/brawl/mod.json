@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.25",
+	"version" : "1.26",
  
     "changelog" :
     {
@@ -44,7 +44,8 @@
         "1.22"   : [ "value, rarity and revisitability tweaks in HotA's Ruins" ],
         "1.23"   : [ "Fixed ImpCache typo and Water Temple" ],
         "1.24"   : [ "banks updated to vcmi 1.6 syntax by kdmcser" ],
-        "1.25"   : [ "ported recent changes from vcmi 1.4 branch", "smaller water banks in Brawl Objects submods core, HotA and Haven", "drastically increased treasure densities in Water Zones", "removed duplicate sound and animation files in HotA Objects submod", "smaller versions of Dragon Utopias in Core Objects submod", "smaller version of Pyramid and Quark Palace in Core Objects submod, uses Invisible Men from Invisible Man mod, then moved to a separate submod" , "Chinese translation by Ziyue", "updated min compatibility", "added dependency on main HotA mod to HotA Objects submod", "HotA Game Balance submod compatibility in HotA Objects submod" ]
+        "1.25"   : [ "ported recent changes from vcmi 1.4 branch", "smaller water banks in Brawl Objects submods core, HotA and Haven", "drastically increased treasure densities in Water Zones", "removed duplicate sound and animation files in HotA Objects submod", "smaller versions of Dragon Utopias in Core Objects submod", "smaller version of Pyramid and Quark Palace in Core Objects submod, uses Invisible Men from Invisible Man mod, then moved to a separate submod" , "Chinese translation by Ziyue", "updated min compatibility", "added dependency on main HotA mod to HotA Objects submod", "HotA Game Balance submod compatibility in HotA Objects submod" ],
+        "1.26"   : [ "added submod with PvP Balance creature banks to Brawl", "smaller versions of Dragon Utopias and Golden Dragon Utopia in PvP Balance Objects submod" ]
     },
 
 	"compatibility" :
