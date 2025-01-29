@@ -48,22 +48,11 @@
 				"val" : 2,
 				"addInfo" : "spell.accurateShot"
 			},
-			"summonPower" :
+			"friends" :
 			{
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100
-			},
-			"summonCasts" :
-			{
-				"type" : "CASTS",
-				"val" : 1
-			},
-			"duplicateSeaDogCopy" :
-			{
-				"type" : "ENCHANTER",
-				"subtype" : "spell.summonSeaDogCopy",
-				"val" : 1,
-				"addInfo" : 0
+				"type" : "SUMMON_GUARDIANS",
+				"val" : 100,
+				"subtype" : "creature.seadog"
 			}
 		},
 		"graphics" : {

@@ -1,7 +1,7 @@
 {
     "name" : "brawlHotaObjects",
 
-    "description" : "Modified HotA objects used by template Brawl, should be better suited for short games on small maps.<br>Churchyard: defended by 3x 8-15 Halflings and 3x 80-150 Peasants, reward: 800-1500 gold, minor artifact, 4-8 walking deads/zombies,<br>Mansion: 5-8 Vampire Lords, reward: minor art, 2-3 resources, 1200-1800 gold,<br>Red Tower: 5x 2-5 water elementals, reward 3-6 air elementals,<br>Experimental Workshop: 5x 2 Stone-Gold Golems, reward: 3 Golems,<br>Wolf Rider Picket: 4x 6-12 Goblins and 6-12 Wolf Riders, reward: 2-3 Wood and Ore and 3-6 Orcs,<br>Pirate Cavern: 2x 2-4 Pirates, 2x 2-3 Corsairs, or 4x 1 special Sea Dog (better get him before he moves!) reward: 3-6 Stormbirds or 1 Nix, 3-7 Gold,<br>Ivory Tower: 2x 12-20 Gremlins, 3x 3-6 Gargoyles, reward: 3-6 Gargoyles and 1 Mage,<br>Spit: 2x 2-3 Basilisks, 2x 1 Gorgon, reward: 1000-2000 Gold, 1 Basilisk, 1 Basilisk or Gorgon.<br>Ruins: value up to 3000, rarity down to 50, zone limit down to 1, revisitable like the rest, guards and rewards untouched,<br>Temple Of The Sea : 1 Nix, 1 Wyvern, 1 Hydra, 1 Sea Serpent, reward: 5000 Gold, Minor Artifact, Treasure Artifact and either 1 Relic or 2 Major Artifacts,<br>Beholder Sanctuary: 5x 3/5/7 Beholders, reward: 1500/2500/3500 Gold, Minor Artifact<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+    "description" : "Modified HotA objects used by template Brawl, should be better suited for short games on small maps.<br>Churchyard: defended by 3x 8-15 Halflings and 3x 80-150 Peasants, reward: 800-1500 gold, minor artifact, 4-8 walking deads/zombies,<br>Mansion: 5-8 Vampire Lords, reward: minor art, 2-3 resources, 1200-1800 gold,<br>Red Tower: 5x 2-5 water elementals, reward 3-6 air elementals,<br>Experimental Workshop: 5x 2 Stone-Gold Golems, reward: 3 Golems,<br>Wolf Rider Picket: 4x 6-12 Goblins and 6-12 Wolf Riders, reward: 2-3 Wood and Ore and 3-6 Orcs,<br>Pirate Cavern: 2x 2-4 Pirates, 2x 2-3 Corsairs, or 16x 1 Sea Dog (12 of them are summoned but you need to defeat them too to clear the bank) reward: 3-6 Stormbirds or 1 Nix, 3-7 Gold,<br>Ivory Tower: 2x 12-20 Gremlins, 3x 3-6 Gargoyles, reward: 3-6 Gargoyles and 1 Mage,<br>Spit: 2x 2-3 Basilisks, 2x 1 Gorgon, reward: 1000-2000 Gold, 1 Basilisk, 1 Basilisk or Gorgon.<br>Ruins: value up to 3000, rarity down to 50, zone limit down to 1, revisitable like the rest, guards and rewards untouched,<br>Temple Of The Sea : 1 Nix, 1 Wyvern, 1 Hydra, 1 Sea Serpent, reward: 5000 Gold, Minor Artifact, Treasure Artifact and either 1 Relic or 2 Major Artifacts,<br>Beholder Sanctuary: 5x 3/5/7 Beholders, reward: 1500/2500/3500 Gold, Minor Artifact<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
 
     "author" : "Warzyw647",
 
@@ -16,11 +16,6 @@
 	"creatures" :
 	[
 		"config/creatures/seaDogCopy.json"
-	],
-	
-	"spells" :
-	[
-		"config/spells/summonSeaDogCopy"
 	],
 	
 	"objects" :
@@ -40,7 +35,7 @@
 		"config/genericObjects/coverOfDarkness.json"
 	],
 	
-	"version" : "1.08",
+	"version" : "1.09",
 
  	"depends" : 
 	[
@@ -63,7 +58,8 @@
         "1.05"   : [ "bumped Ruins value, lowered rarity and zone limit and made them revisitable" ],
         "1.06"   : [ "smaller versions of water banks: Temple Of The Sea and Beholder Sanctuary" ],
         "1.07"   : [ "the Pirate Copy creature used in the maxi Pirate Cavern now reuses sounds and animations from HotA mod instead copying them" ],
-        "1.08"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility", "added dependency on main HotA mod", "repeated some object changes from mod brawlObjects to achieve hota.gameBalance mod compatibility, namely Cover of Darkness and Naga Bank" ]
+        "1.08"   : [ "added Chinese translation by Ziyue", "ported creature bank(s) to 1.6 syntax", "updated min compatibility", "added dependency on main HotA mod", "repeated some object changes from mod brawlObjects to achieve hota.gameBalance mod compatibility, namely Cover of Darkness and Naga Bank" ],
+        "1.09"   : [ "nerfed maxi Pirate Cavern, now guarded by 16 Sea Dogs instead of starting with 4 and increasing to about 160 if they get a move" ]
     },
 
 	"compatibility" :
